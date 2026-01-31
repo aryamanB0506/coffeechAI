@@ -1,0 +1,291 @@
+{
+  "faqs": [
+    {
+      "id": "F001",
+      "question": "How should I use Confluence to document a new project from kickoff to handoff?",
+      "answer": "Use Confluence as the “single source of truth” for the project. Create a dedicated space (or a parent page) and keep everything discoverable via a small set of top-level pages that you link from a Project Home page.\n\n**Recommended page set (copy/paste as headings):**\n1. **Project Home** – 1–2 paragraphs: what we’re building, who it’s for, current status, links to the pages below.\n2. **Requirements & Scope** – goals, non-goals, success metrics, constraints, stakeholders, timelines.\n3. **Architecture / Design** – diagrams, service boundaries, data flow, APIs, data models, key tradeoffs.\n4. **Decision Log (ADRs)** – short entries for major decisions: context, options considered, decision, consequences.\n5. **Runbook / Ops** – how to deploy, rollback, monitor, common failure modes, on-call notes.\n6. **Testing & Validation** – test strategy, environments, test data, how to verify changes.\n7. **Release Notes** – milestones, changelog, links to tickets/PRs.\n8. **FAQs** – recurring questions and answers.\n\n**Practical habits that make docs actually useful:**\n- Put a short “Last updated” note at the top of the Project Home page and update it when major decisions change.\n- Link Jira tickets, PRs, dashboards, and runbooks directly from the relevant section.\n- Keep pages small and scannable; move long details to child pages and link them.\n- Assign an owner for the docs (often the feature lead) and add doc updates as checklist items in the PR template.\n\nIf you’re new, start with the Project Home + Requirements + Architecture pages and add the rest as the project matures.",
+      "tags": [
+        "confluence",
+        "documentation",
+        "project",
+        "runbook",
+        "adr",
+        "decision log"
+      ]
+    },
+    {
+      "id": "F002",
+      "question": "What’s a good template for technical documentation that engineers will actually read?",
+      "answer": "Aim for a structure that answers the reader’s questions in the order they naturally ask them: “What is this?”, “Why does it exist?”, “How does it work?”, “How do I use it safely?”, and “What do I do when it breaks?”\n\n**Suggested template (works for services, pipelines, and internal tools):**\n- **Overview**: 3–5 sentences on what it is and what problem it solves.\n- **Audience**: who should read this (new hires, on-call, data consumers, etc.).\n- **Goals / Non-goals**: what it will and won’t do.\n- **High-level Architecture**: diagram + a few bullet points about major components.\n- **Key Workflows**: request flow, data flow, or user flow (step-by-step).\n- **Interfaces**: APIs, events, tables, configs, permissions.\n- **Operational Notes**: dashboards, alerts, SLOs, dependencies, rollback strategy.\n- **Security & Compliance**: access model, secrets handling, data retention (if applicable).\n- **FAQ / Troubleshooting**: common issues and fixes.\n- **References**: links to repos, runbooks, tickets, design docs.\n\n**Doc quality checklist:**\n- Could a new teammate follow this to set up and make a small change?\n- Are assumptions and constraints explicit?\n- Are “sharp edges” called out (gotchas, rate limits, tricky data behavior)?\n- Is there a “How to verify” section (tests, metrics, expected outputs)?\n\nGood docs are concise, opinionated, and have links for deeper detail.",
+      "tags": [
+        "documentation",
+        "template",
+        "best practices",
+        "architecture",
+        "runbook"
+      ]
+    },
+    {
+      "id": "F003",
+      "question": "How do I request access to internal tools, repositories, or data—and what info speeds up approval?",
+      "answer": "Use the IT / Access portal as the official path, but approvals move much faster when your request is specific and includes the right context.\n\n**Steps:**\n1. **Check the access matrix / onboarding page** (if available) to confirm the correct group/role.\n2. Submit a request in the portal with:\n   - **Tool/resource name** (repo, database, dashboard, SaaS app)\n   - **Exact permission level** needed (read/write/admin)\n   - **Business justification** (“working on X project; need read access to Y table”)\n   - **Time window** (temporary vs ongoing)\n   - **Manager / sponsor** (who can approve)\n3. After submitting, post the request ID to your manager or the owning team’s channel.\n\n**Common reasons requests get delayed:**\n- Missing justification or unclear scope (“need access” without why).\n- Asking for admin when read-only is sufficient.\n- Requesting access to the wrong resource (similar names).\n\n**Tip:** If you’re unsure, ask the owning team which group grants the right permissions before submitting; it saves a full approval cycle.",
+      "tags": [
+        "access",
+        "permissions",
+        "github",
+        "tools",
+        "data access",
+        "it portal"
+      ]
+    },
+    {
+      "id": "F004",
+      "question": "What’s the fastest way to set up my development environment without getting stuck on day one?",
+      "answer": "Start with the repo’s README, but treat setup like a checklist so you can isolate failures quickly.\n\n**Recommended setup order:**\n1. **Clone the repo** and confirm you can run basic commands (e.g., `ls`, open in your editor).\n2. **Install dependencies** exactly as the project expects:\n   - runtime version (Node/Python/Java)\n   - package manager (npm/yarn/pnpm, pip/poetry, etc.)\n3. **Environment variables**:\n   - copy `.env.example` → `.env`\n   - fill values you have; leave placeholders for secrets you’ll request\n4. **Run a minimal “smoke test”** (build, unit test, `hello world`, or health endpoint).\n5. **Start the app locally** and confirm:\n   - logs look normal\n   - you can hit one endpoint or UI route\n6. **Connect to staging/dev services** only after local boot works.\n\n**When you hit errors:**\n- Copy the exact error message and the command you ran.\n- Note your OS, runtime versions, and the last step that succeeded.\n- Search the repo issues / internal docs for the error string.\n\n**Pro tip:** Don’t try to solve all missing secrets yourself—request access early. Many “setup bugs” are simply missing permissions.",
+      "tags": [
+        "setup",
+        "development environment",
+        "onboarding",
+        "dependencies",
+        "env vars"
+      ]
+    },
+    {
+      "id": "F005",
+      "question": "What Git workflow should I follow here, and how do I avoid messy branches and painful merges?",
+      "answer": "Follow a simple, repeatable workflow that keeps main stable and makes code review easy.\n\n**Standard workflow:**\n1. Pull latest `main`: `git checkout main && git pull`\n2. Create a feature branch: `git checkout -b feature/<short-name>`\n3. Make small commits with clear messages:\n   - “Add validation for X”\n   - “Fix null handling in Y”\n4. Push branch and open a Pull Request (PR).\n5. Address review comments, keep the branch up-to-date (rebase/merge as your team prefers).\n6. Merge only when checks pass and approvals are complete.\n\n**Avoiding merge pain:**\n- Keep branches short-lived (aim: <2–3 days when possible).\n- Rebase/merge from main before final review to reduce conflicts.\n- Don’t mix unrelated changes (refactors + features) in one PR.\n- If you need a large change, break it into stacked PRs or separate PRs per component.\n\n**If you’re new:** Ask whether the team prefers merge commits, squash merges, or rebasing. Consistency matters more than the specific strategy.",
+      "tags": [
+        "git",
+        "workflow",
+        "branches",
+        "pull requests",
+        "merging"
+      ]
+    },
+    {
+      "id": "F006",
+      "question": "What should be included in a high-quality pull request so reviewers can approve quickly?",
+      "answer": "Think of your PR description as a mini-story: what changed, why it matters, and how to validate it.\n\n**PR checklist:**\n- **Summary**: 2–4 sentences describing the change and user impact.\n- **Motivation**: what problem you’re solving or bug you’re fixing.\n- **What changed**: bullet list of key code changes.\n- **Testing**: what you ran (unit tests, integration tests, manual steps).\n- **Screenshots / logs**: for UI changes or tricky behavior.\n- **Risk & rollout**: any edge cases, feature flags, or rollback plan.\n- **Links**: Jira ticket, design doc, dashboards, prior PRs.\n\n**Review-friendly habits:**\n- Keep PRs small (ideally <300–500 lines changed when possible).\n- Avoid formatting-only changes mixed with logic changes.\n- Call out anything non-obvious (“this looks weird but it’s required because…”).\n\nA great PR lets someone validate the change without reading every line of code.",
+      "tags": [
+        "pull request",
+        "code review",
+        "testing",
+        "rollout"
+      ]
+    },
+    {
+      "id": "F007",
+      "question": "How do I ask for help in Slack without wasting people’s time or sounding lost?",
+      "answer": "The best help requests are specific and contain enough context for someone to jump in quickly.\n\n**Use this format:**\n1. **Goal**: what you’re trying to achieve\n2. **Context**: where you’re working (repo/service, environment, relevant links)\n3. **What you tried**: commands, approaches, docs you checked\n4. **What happened**: exact error + screenshot/log snippet\n5. **Your question**: a single, explicit ask\n\n**Example:**\n- Goal: “I’m trying to run the ingestion job locally.”\n- Context: “repo X, branch Y, using Python 3.11; docs link…”\n- Tried: “followed README steps 1–5”\n- Happened: “error: missing env var Z”\n- Ask: “Do we have a dev value for Z or is it pulled from Vault?”\n\n**Tip:** If the issue is urgent or blocking, say so and include a deadline. If it’s not urgent, ask asynchronously and be patient.",
+      "tags": [
+        "communication",
+        "help",
+        "debugging",
+        "slack",
+        "blocking"
+      ]
+    },
+    {
+      "id": "F008",
+      "question": "What should I do when I’m blocked and don’t know the next step?",
+      "answer": "Getting unblocked is a process: clarify the blocker, attempt the quick fixes, then escalate with a crisp summary.\n\n**Unblock checklist (15–30 minutes):**\n1. Restate the problem in one sentence (what’s failing, where, and when).\n2. Confirm inputs/assumptions (env vars, permissions, data availability).\n3. Try the simplest reproduction (smallest test case).\n4. Search internal docs/issues for the exact error message.\n5. If relevant, check logs/metrics (is it failing everywhere or just locally?).\n\n**Escalate with a clear summary:**\n- What you’re trying to do\n- What you’ve tried\n- What you observed (error logs)\n- What you think the likely cause is\n- What you need from them (access, confirmation, guidance)\n\nThis turns “I’m stuck” into a fast, solvable request.",
+      "tags": [
+        "blockers",
+        "debugging",
+        "workflow",
+        "communication"
+      ]
+    },
+    {
+      "id": "F009",
+      "question": "How do I run tests locally and know I’m testing the right thing?",
+      "answer": "Start by identifying the lowest-cost tests that cover your change, then run broader suites as needed.\n\n**Typical approach:**\n1. **Unit tests** for the module you changed (fast feedback).\n2. **Lint / formatting** checks (often required by CI).\n3. **Integration tests** if your change affects external boundaries (DB, API, queues).\n4. **Manual validation** for UI or data changes (use a checklist).\n\n**Tips:**\n- Run tests with verbose output if a failure is unclear.\n- Seed or mock data to keep tests deterministic.\n- If tests depend on services, use the project’s recommended docker-compose/dev stack.\n- If you can’t reproduce a CI failure locally, compare runtime versions and environment variables.\n\nA good habit: add a short “How I tested” section in the PR description.",
+      "tags": [
+        "testing",
+        "unit tests",
+        "integration tests",
+        "local development",
+        "ci"
+      ]
+    },
+    {
+      "id": "F010",
+      "question": "How does deployment work here (dev → staging → production), and what should I watch for?",
+      "answer": "Most teams follow a pipeline that protects production with automated checks and a controlled rollout.\n\n**Common stages:**\n- **Dev / Local**: fastest feedback; you can run and iterate.\n- **Staging**: production-like environment; final integration validation.\n- **Production**: controlled release, monitoring, rollback readiness.\n\n**Typical flow:**\n1. Merge to main triggers build + tests.\n2. Artifacts are deployed to staging.\n3. Team validates critical paths (smoke tests, dashboards).\n4. Production deploy occurs via CI/CD with approvals (or scheduled windows).\n\n**What to watch for:**\n- Breaking schema changes (DB migrations) → coordinate carefully.\n- Backward compatibility across services.\n- Alert noise during deploy; confirm SLO dashboards after rollout.\n- Rollback plan: know how to revert quickly and what data impacts might occur.\n\nIf you’re new, ask a teammate to walk you through the release checklist once—then document it in a runbook.",
+      "tags": [
+        "deployment",
+        "ci/cd",
+        "release",
+        "staging",
+        "rollback"
+      ]
+    },
+    {
+      "id": "F011",
+      "question": "How do I debug a failing CI pipeline when it passes locally?",
+      "answer": "CI failures are often environment differences, flaky tests, or missing dependencies.\n\n**Step-by-step:**\n1. Identify the failing job and the exact failing command.\n2. Read logs from the first error upward (later errors can be cascading).\n3. Compare versions (Node/Python/Java), OS, and env vars to your local setup.\n4. If it’s a test:\n   - check for order-dependence (tests rely on shared state)\n   - check timeouts and race conditions\n   - rerun the test multiple times locally\n5. If it’s lint/format:\n   - run the exact formatter/linter command locally\n6. If it’s dependency-related:\n   - lockfile changes, cache issues, or private package access\n\n**Practical tip:** Add logging or a small diagnostic print if needed, but remove it before merging unless it’s genuinely useful.",
+      "tags": [
+        "ci/cd",
+        "debugging",
+        "pipelines",
+        "tests",
+        "lint"
+      ]
+    },
+    {
+      "id": "F012",
+      "question": "How should I write meeting notes so decisions and action items don’t get lost?",
+      "answer": "Meeting notes should capture outcomes, not a transcript. Your goal is that someone who missed the meeting can understand what was decided and what happens next.\n\n**Use this structure:**\n- **Date / Attendees**\n- **Purpose** (1 sentence)\n- **Decisions** (bullets; include rationale if non-obvious)\n- **Action Items** (owner + due date)\n- **Open Questions** (who will follow up)\n- **Links** (tickets, docs, PRs)\n\n**Best practices:**\n- Post notes within 24 hours.\n- If a decision affects other teams, link the notes in the relevant channel.\n- Convert action items into tickets when possible (so they don’t live only in notes).\n\nThis reduces repeated meetings and “wait, why did we do that?” confusion.",
+      "tags": [
+        "meetings",
+        "documentation",
+        "communication",
+        "action items"
+      ]
+    },
+    {
+      "id": "F013",
+      "question": "What’s expected from interns or new hires in their first 2–3 weeks?",
+      "answer": "Your first few weeks are about ramping up and building trust through consistent progress.\n\n**What “good” looks like early on:**\n- You complete onboarding tasks quickly (setup, access, required trainings).\n- You ask questions early rather than spinning for days.\n- You take ownership of small scoped tickets and ship them end-to-end.\n- You communicate progress and blockers clearly in standups or async updates.\n- You learn the system by tracing real workflows and reading recent PRs.\n\n**Suggested week-by-week:**\n- **Week 1**: environment setup, docs reading, first small bugfix PR.\n- **Week 2**: a small feature or component change with tests.\n- **Week 3**: a more independent task with a short design note.\n\nIf you’re unsure what to focus on, ask your manager for a “ramp plan” with 2–3 concrete milestones.",
+      "tags": [
+        "interns",
+        "onboarding",
+        "expectations",
+        "ramp plan"
+      ]
+    },
+    {
+      "id": "F014",
+      "question": "How do I prioritize tasks when everything feels urgent?",
+      "answer": "Prioritization is about impact, deadlines, and dependencies—then communicating tradeoffs.\n\n**A simple framework:**\n1. **Customer impact**: what affects users or revenue?\n2. **Deadline**: what’s time-bound (launches, compliance, incidents)?\n3. **Dependencies**: what blocks other people?\n4. **Effort**: can you ship a small improvement today?\n\n**Practical steps:**\n- List tasks with an impact + deadline column.\n- Ask your manager to confirm the top 1–2 priorities.\n- If a new urgent request arrives, respond with: “I can do X today; that would delay Y—does that match priorities?”\n\nThis keeps you aligned and prevents quiet, unplanned work from derailing deadlines.",
+      "tags": [
+        "prioritization",
+        "time management",
+        "planning",
+        "communication"
+      ]
+    },
+    {
+      "id": "F015",
+      "question": "What should I do during a production incident, and how do I participate as a beginner?",
+      "answer": "Incidents can be stressful—follow the playbook and communicate clearly.\n\n**During the incident:**\n1. Join the incident channel/bridge and read the pinned context.\n2. If you’re not the incident commander, ask how you can help.\n3. Take one small responsibility:\n   - pull logs for a specific service\n   - check a dashboard\n   - verify a mitigation step\n4. Share findings with timestamps and links (keep it factual).\n\n**After resolution:**\n- Help write the postmortem summary: root cause, impact, detection, mitigation, prevention.\n- Capture follow-ups as tickets with owners and deadlines.\n\n**Beginner-friendly rule:** Don’t change production systems without explicit approval, but you can contribute by gathering data and verifying hypotheses.",
+      "tags": [
+        "incident response",
+        "production",
+        "reliability",
+        "postmortem"
+      ]
+    },
+    {
+      "id": "F016",
+      "question": "How should I use Jira so tickets stay useful and accurate?",
+      "answer": "Jira is most helpful when it reflects reality: status, blockers, and scope changes.\n\n**Ticket hygiene:**\n- Keep the **description** updated if scope changes.\n- Use **acceptance criteria** so “done” is unambiguous.\n- Update status as you work (don’t leave tickets in “In Progress” for weeks).\n- Add short comments for key progress milestones and blockers.\n- Link PRs, design docs, and dashboards in the ticket.\n\n**Common mistakes:**\n- Tickets with no context (“fix bug”).\n- Silent scope expansion without updating the ticket.\n- Closing tickets without verification steps or release notes.\n\nIf your team uses sprint planning, ask which fields matter (story points, components, labels) and follow the local norm.",
+      "tags": [
+        "jira",
+        "task tracking",
+        "workflow",
+        "planning"
+      ]
+    },
+    {
+      "id": "F017",
+      "question": "How do I write a design doc that gets approvals quickly?",
+      "answer": "A good design doc makes it easy for reviewers to validate the approach and spot risks.\n\n**Structure:**\n- **Problem**: what’s broken or missing? who is affected?\n- **Goals / Non-goals**: what you will and won’t solve.\n- **Constraints**: latency, cost, security, timeline, dependencies.\n- **Proposed Solution**: high-level architecture + key workflows.\n- **Data model / API changes**: schemas, endpoints, events.\n- **Alternatives Considered**: why you didn’t pick them.\n- **Risks & Mitigations**: what could go wrong and how you’ll handle it.\n- **Rollout Plan**: feature flags, migration strategy, verification.\n- **Open Questions**: what you need feedback on.\n\n**Tip:** Put the most important diagram near the top. Reviewers decide in the first 2 minutes whether they understand the proposal.",
+      "tags": [
+        "design docs",
+        "architecture",
+        "documentation",
+        "rollout",
+        "risks"
+      ]
+    },
+    {
+      "id": "F018",
+      "question": "What’s the most effective way to learn a large codebase quickly?",
+      "answer": "Treat learning the codebase like learning a city: start with a map, then explore a few key routes.\n\n**Step-by-step ramp plan:**\n1. Read the high-level architecture docs and service directory.\n2. Pick one end-to-end user flow (e.g., “create account” or “run ingestion job”).\n3. Trace it:\n   - entry point (API/handler)\n   - service calls\n   - data writes/reads\n   - logs/metrics emitted\n4. Read 3–5 recent merged PRs to learn how changes are made.\n5. Make a small change and ship a PR (fastest way to learn).\n6. Keep a personal “glossary” of internal terms and acronyms.\n\n**Tip:** Ask a mentor for “the 3 services I should understand first.” That focuses your learning.",
+      "tags": [
+        "codebase",
+        "learning",
+        "onboarding",
+        "architecture"
+      ]
+    },
+    {
+      "id": "F019",
+      "question": "How should I communicate status updates so my manager and team stay aligned?",
+      "answer": "Good status updates are short, regular, and highlight what matters: progress, blockers, and next steps.\n\n**Daily/standup format:**\n- Yesterday: what you completed\n- Today: what you’ll work on\n- Blockers: what’s stopping you (and what you need)\n\n**Async weekly format:**\n- **Wins**: shipped work + impact\n- **In progress**: what’s next and estimated timeline\n- **Risks**: potential delays or dependencies\n- **Asks**: what you need from others\n\nIf something is slipping, communicate early. Surprises are worse than delays.",
+      "tags": [
+        "communication",
+        "status updates",
+        "planning",
+        "management"
+      ]
+    },
+    {
+      "id": "F020",
+      "question": "How should I respond to code review feedback without getting defensive?",
+      "answer": "Code review is about improving the codebase, not judging you personally.\n\n**How to handle feedback:**\n- Assume positive intent and ask clarifying questions if needed.\n- If you disagree, explain your reasoning and propose an alternative (with tradeoffs).\n- Apply feedback in small commits so reviewers can follow changes.\n- Thank the reviewer and summarize what you changed.\n\n**When feedback conflicts:**\n- Ask for a quick sync to align.\n- Default to team conventions and maintainability.\n\nOver time, you’ll learn reviewers’ preferences—and you’ll write PRs that anticipate common feedback.",
+      "tags": [
+        "feedback",
+        "growth",
+        "code review",
+        "communication"
+      ]
+    },
+    {
+      "id": "F021",
+      "question": "How do I prepare for a 1:1 so it’s useful (not just “everything’s fine”)?",
+      "answer": "A good 1:1 is a tool for alignment and growth. Bring topics that help you do better work.\n\n**Bring:**\n- Progress and blockers (briefly)\n- 1–2 questions about priorities or context\n- Feedback request (e.g., “How can I improve my PRs?”)\n- Career growth topics (skills to build, upcoming opportunities)\n- Any concerns early (scope, workload, communication)\n\n**Optional structure:**\n- 5 min: status\n- 10 min: deeper discussion (project or team context)\n- 5 min: growth/feedback\n\nKeep a running doc with topics so you’re never scrambling right before the meeting.",
+      "tags": [
+        "1:1",
+        "meetings",
+        "career",
+        "feedback"
+      ]
+    },
+    {
+      "id": "F022",
+      "question": "Where can I find the coding style guide, and what should I do if it’s unclear?",
+      "answer": "Start with what’s enforced automatically—those rules matter most.\n\n**Where to look:**\n- Repo config files: linters/formatters (ESLint/Prettier, black/ruff, etc.)\n- CONTRIBUTING.md / style docs\n- Existing code patterns in the module you’re editing\n\n**What to do when unclear:**\n- Follow the surrounding code style for consistency.\n- Ask in the team channel: “Do we prefer X or Y here?”\n- If a rule causes frequent debate, propose documenting it (short Confluence page or repo doc).\n\nConsistency reduces review churn and makes the codebase easier to maintain.",
+      "tags": [
+        "coding style",
+        "best practices",
+        "lint",
+        "formatting"
+      ]
+    },
+    {
+      "id": "F023",
+      "question": "How do I estimate timelines accurately when I’m not sure how hard something is?",
+      "answer": "Estimation is about communicating uncertainty, not predicting perfectly.\n\n**How to estimate:**\n1. Break work into steps (design, implementation, tests, rollout, docs).\n2. Identify unknowns (APIs you haven’t used, permissions, data quality).\n3. Provide a range: “Best case: 1 day; likely: 2–3 days; worst case: 1 week if X happens.”\n4. Validate with a teammate if the task is new to you.\n\n**Rule of thumb:** If you can’t explain the steps, you can’t estimate yet—do a short spike (1–2 hours) and then estimate again.",
+      "tags": [
+        "estimation",
+        "planning",
+        "time management",
+        "spike"
+      ]
+    },
+    {
+      "id": "F024",
+      "question": "What’s the best way to collaborate across teams without creating confusion or duplicating work?",
+      "answer": "Cross-team collaboration works best when you make context easy to consume and you capture decisions in a shared place.\n\n**Best practices:**\n- Start with a short written context (problem, why now, proposed next step).\n- Identify owners and the “decision-maker” early.\n- Use a shared doc for decisions and links (Confluence/Doc).\n- Summarize outcomes in the shared channel after meetings.\n- Create tickets for action items so they don’t disappear.\n\n**Avoid:**\n- DM-only decisions (others can’t find context later).\n- Meetings without an agenda or expected outcomes.\n- Scope changes without updating the shared doc/tickets.",
+      "tags": [
+        "collaboration",
+        "cross-team",
+        "communication",
+        "documentation"
+      ]
+    },
+    {
+      "id": "F025",
+      "question": "When should I escalate an issue, and what should my escalation message include?",
+      "answer": "Escalate when the cost of waiting is higher than the cost of interrupting someone: blocked progress, customer impact, security risk, or a deadline at risk.\n\n**Escalation checklist:**\n- Severity: customer impact? production incident? security?\n- Time sensitivity: does it worsen if we wait?\n- Ownership: who is responsible or on-call?\n- Evidence: logs, screenshots, reproduction steps\n\n**Good escalation message:**\n- What is happening (1 sentence)\n- Impact (who/what is affected)\n- What you tried\n- What you need (approval, decision, access, expertise)\n- Deadline/time window\n\nThis makes it easy for the right person to act quickly.",
+      "tags": [
+        "escalation",
+        "blockers",
+        "communication",
+        "incident response"
+      ]
+    }
+  ]
+}
