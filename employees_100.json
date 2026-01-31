@@ -1,0 +1,4187 @@
+{
+  "employees": [
+    {
+      "id": "E001",
+      "name": "Employee 1",
+      "email": "employee1@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Payments",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 1",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E002",
+      "name": "Employee 2",
+      "email": "employee2@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Growth",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 2",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E003",
+      "name": "Employee 3",
+      "email": "employee3@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Search",
+      "seniority_level": 5,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 3",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E004",
+      "name": "Employee 4",
+      "email": "employee4@demo-co.com",
+      "role": "Software Engineer",
+      "team": "Infrastructure",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "apis",
+        "debugging",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Software Engineer Project 4",
+          "description": "Worked on software engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "apis",
+            "debugging"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-03",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E005",
+      "name": "Employee 5",
+      "email": "employee5@demo-co.com",
+      "role": "Frontend Engineer",
+      "team": "Payments",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "react",
+        "typescript",
+        "ui",
+        "accessibility"
+      ],
+      "projects": [
+        {
+          "name": "Frontend Engineer Project 5",
+          "description": "Worked on frontend engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "react",
+            "typescript",
+            "ui"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E006",
+      "name": "Employee 6",
+      "email": "employee6@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Search",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "sre",
+        "monitoring",
+        "incident response"
+      ],
+      "projects": [
+        {
+          "name": "Site Reliability Engineer Project 6",
+          "description": "Worked on site reliability engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "sre",
+            "monitoring",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E007",
+      "name": "Employee 7",
+      "email": "employee7@demo-co.com",
+      "role": "Data Scientist",
+      "team": "Infrastructure",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "statistics",
+        "experimentation",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Data Scientist Project 7",
+          "description": "Worked on data scientist tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "statistics",
+            "experimentation"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E008",
+      "name": "Employee 8",
+      "email": "employee8@demo-co.com",
+      "role": "Software Engineer",
+      "team": "Infrastructure",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "apis",
+        "debugging",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Software Engineer Project 8",
+          "description": "Worked on software engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "apis",
+            "debugging"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E009",
+      "name": "Employee 9",
+      "email": "employee9@demo-co.com",
+      "role": "Product Manager",
+      "team": "Search",
+      "seniority_level": 3,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "product thinking",
+        "requirements",
+        "analytics"
+      ],
+      "projects": [
+        {
+          "name": "Product Manager Project 9",
+          "description": "Worked on product manager tasks related to system improvements and reliability.",
+          "tags": [
+            "product thinking",
+            "requirements",
+            "analytics"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E010",
+      "name": "Employee 10",
+      "email": "employee10@demo-co.com",
+      "role": "Data Engineer",
+      "team": "AI",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 10",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E011",
+      "name": "Employee 11",
+      "email": "employee11@demo-co.com",
+      "role": "Machine Learning Engineer",
+      "team": "Analytics",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "ml",
+        "feature engineering",
+        "evaluation"
+      ],
+      "projects": [
+        {
+          "name": "Machine Learning Engineer Project 11",
+          "description": "Worked on machine learning engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "ml",
+            "feature engineering"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E012",
+      "name": "Employee 12",
+      "email": "employee12@demo-co.com",
+      "role": "Data Scientist",
+      "team": "AI",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "statistics",
+        "experimentation",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Data Scientist Project 12",
+          "description": "Worked on data scientist tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "statistics",
+            "experimentation"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E013",
+      "name": "Employee 13",
+      "email": "employee13@demo-co.com",
+      "role": "Software Engineer",
+      "team": "Core Services",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "apis",
+        "debugging",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Software Engineer Project 13",
+          "description": "Worked on software engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "apis",
+            "debugging"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E014",
+      "name": "Employee 14",
+      "email": "employee14@demo-co.com",
+      "role": "Product Manager",
+      "team": "Search",
+      "seniority_level": 3,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "product thinking",
+        "requirements",
+        "analytics"
+      ],
+      "projects": [
+        {
+          "name": "Product Manager Project 14",
+          "description": "Worked on product manager tasks related to system improvements and reliability.",
+          "tags": [
+            "product thinking",
+            "requirements",
+            "analytics"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E015",
+      "name": "Employee 15",
+      "email": "employee15@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Search",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 15",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E016",
+      "name": "Employee 16",
+      "email": "employee16@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Core Services",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "sre",
+        "monitoring",
+        "incident response"
+      ],
+      "projects": [
+        {
+          "name": "Site Reliability Engineer Project 16",
+          "description": "Worked on site reliability engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "sre",
+            "monitoring",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-03",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E017",
+      "name": "Employee 17",
+      "email": "employee17@demo-co.com",
+      "role": "Software Engineer",
+      "team": "Search",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "apis",
+        "debugging",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Software Engineer Project 17",
+          "description": "Worked on software engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "apis",
+            "debugging"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E018",
+      "name": "Employee 18",
+      "email": "employee18@demo-co.com",
+      "role": "Software Engineer",
+      "team": "Analytics",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "apis",
+        "debugging",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Software Engineer Project 18",
+          "description": "Worked on software engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "apis",
+            "debugging"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-03",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E019",
+      "name": "Employee 19",
+      "email": "employee19@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Infrastructure",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 19",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E020",
+      "name": "Employee 20",
+      "email": "employee20@demo-co.com",
+      "role": "Analytics Engineer",
+      "team": "Identity",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "dbt",
+        "sql",
+        "data modeling"
+      ],
+      "projects": [
+        {
+          "name": "Analytics Engineer Project 20",
+          "description": "Worked on analytics engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "dbt",
+            "sql",
+            "data modeling"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E021",
+      "name": "Employee 21",
+      "email": "employee21@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Platform",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 21",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E022",
+      "name": "Employee 22",
+      "email": "employee22@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Identity",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 22",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E023",
+      "name": "Employee 23",
+      "email": "employee23@demo-co.com",
+      "role": "Data Scientist",
+      "team": "Platform",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "statistics",
+        "experimentation",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Data Scientist Project 23",
+          "description": "Worked on data scientist tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "statistics",
+            "experimentation"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E024",
+      "name": "Employee 24",
+      "email": "employee24@demo-co.com",
+      "role": "Frontend Engineer",
+      "team": "Identity",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "react",
+        "typescript",
+        "ui",
+        "accessibility"
+      ],
+      "projects": [
+        {
+          "name": "Frontend Engineer Project 24",
+          "description": "Worked on frontend engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "react",
+            "typescript",
+            "ui"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E025",
+      "name": "Employee 25",
+      "email": "employee25@demo-co.com",
+      "role": "Machine Learning Engineer",
+      "team": "Core Services",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "ml",
+        "feature engineering",
+        "evaluation"
+      ],
+      "projects": [
+        {
+          "name": "Machine Learning Engineer Project 25",
+          "description": "Worked on machine learning engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "ml",
+            "feature engineering"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E026",
+      "name": "Employee 26",
+      "email": "employee26@demo-co.com",
+      "role": "Data Engineer",
+      "team": "AI",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 26",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E027",
+      "name": "Employee 27",
+      "email": "employee27@demo-co.com",
+      "role": "Software Engineer",
+      "team": "Growth",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "apis",
+        "debugging",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Software Engineer Project 27",
+          "description": "Worked on software engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "apis",
+            "debugging"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E028",
+      "name": "Employee 28",
+      "email": "employee28@demo-co.com",
+      "role": "Software Engineer",
+      "team": "Payments",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "apis",
+        "debugging",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Software Engineer Project 28",
+          "description": "Worked on software engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "apis",
+            "debugging"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E029",
+      "name": "Employee 29",
+      "email": "employee29@demo-co.com",
+      "role": "Frontend Engineer",
+      "team": "AI",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "react",
+        "typescript",
+        "ui",
+        "accessibility"
+      ],
+      "projects": [
+        {
+          "name": "Frontend Engineer Project 29",
+          "description": "Worked on frontend engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "react",
+            "typescript",
+            "ui"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E030",
+      "name": "Employee 30",
+      "email": "employee30@demo-co.com",
+      "role": "Software Engineer",
+      "team": "Infrastructure",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "apis",
+        "debugging",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Software Engineer Project 30",
+          "description": "Worked on software engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "apis",
+            "debugging"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E031",
+      "name": "Employee 31",
+      "email": "employee31@demo-co.com",
+      "role": "Frontend Engineer",
+      "team": "Web",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "react",
+        "typescript",
+        "ui",
+        "accessibility"
+      ],
+      "projects": [
+        {
+          "name": "Frontend Engineer Project 31",
+          "description": "Worked on frontend engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "react",
+            "typescript",
+            "ui"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E032",
+      "name": "Employee 32",
+      "email": "employee32@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Web",
+      "seniority_level": 5,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 32",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E033",
+      "name": "Employee 33",
+      "email": "employee33@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Core Services",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 33",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E034",
+      "name": "Employee 34",
+      "email": "employee34@demo-co.com",
+      "role": "Analytics Engineer",
+      "team": "Growth",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "dbt",
+        "sql",
+        "data modeling"
+      ],
+      "projects": [
+        {
+          "name": "Analytics Engineer Project 34",
+          "description": "Worked on analytics engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "dbt",
+            "sql",
+            "data modeling"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E035",
+      "name": "Employee 35",
+      "email": "employee35@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Analytics",
+      "seniority_level": 1,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "sre",
+        "monitoring",
+        "incident response"
+      ],
+      "projects": [
+        {
+          "name": "Site Reliability Engineer Project 35",
+          "description": "Worked on site reliability engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "sre",
+            "monitoring",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E036",
+      "name": "Employee 36",
+      "email": "employee36@demo-co.com",
+      "role": "Software Engineer",
+      "team": "Web",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "apis",
+        "debugging",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Software Engineer Project 36",
+          "description": "Worked on software engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "apis",
+            "debugging"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E037",
+      "name": "Employee 37",
+      "email": "employee37@demo-co.com",
+      "role": "Analytics Engineer",
+      "team": "Web",
+      "seniority_level": 2,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "dbt",
+        "sql",
+        "data modeling"
+      ],
+      "projects": [
+        {
+          "name": "Analytics Engineer Project 37",
+          "description": "Worked on analytics engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "dbt",
+            "sql",
+            "data modeling"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E038",
+      "name": "Employee 38",
+      "email": "employee38@demo-co.com",
+      "role": "Machine Learning Engineer",
+      "team": "Analytics",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "ml",
+        "feature engineering",
+        "evaluation"
+      ],
+      "projects": [
+        {
+          "name": "Machine Learning Engineer Project 38",
+          "description": "Worked on machine learning engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "ml",
+            "feature engineering"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E039",
+      "name": "Employee 39",
+      "email": "employee39@demo-co.com",
+      "role": "Software Engineer",
+      "team": "Search",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "apis",
+        "debugging",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Software Engineer Project 39",
+          "description": "Worked on software engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "apis",
+            "debugging"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E040",
+      "name": "Employee 40",
+      "email": "employee40@demo-co.com",
+      "role": "Analytics Engineer",
+      "team": "AI",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "dbt",
+        "sql",
+        "data modeling"
+      ],
+      "projects": [
+        {
+          "name": "Analytics Engineer Project 40",
+          "description": "Worked on analytics engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "dbt",
+            "sql",
+            "data modeling"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E041",
+      "name": "Employee 41",
+      "email": "employee41@demo-co.com",
+      "role": "Product Manager",
+      "team": "Search",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "product thinking",
+        "requirements",
+        "analytics"
+      ],
+      "projects": [
+        {
+          "name": "Product Manager Project 41",
+          "description": "Worked on product manager tasks related to system improvements and reliability.",
+          "tags": [
+            "product thinking",
+            "requirements",
+            "analytics"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E042",
+      "name": "Employee 42",
+      "email": "employee42@demo-co.com",
+      "role": "Frontend Engineer",
+      "team": "Platform",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "react",
+        "typescript",
+        "ui",
+        "accessibility"
+      ],
+      "projects": [
+        {
+          "name": "Frontend Engineer Project 42",
+          "description": "Worked on frontend engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "react",
+            "typescript",
+            "ui"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E043",
+      "name": "Employee 43",
+      "email": "employee43@demo-co.com",
+      "role": "Data Scientist",
+      "team": "Identity",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "statistics",
+        "experimentation",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Data Scientist Project 43",
+          "description": "Worked on data scientist tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "statistics",
+            "experimentation"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E044",
+      "name": "Employee 44",
+      "email": "employee44@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "AI",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 44",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E045",
+      "name": "Employee 45",
+      "email": "employee45@demo-co.com",
+      "role": "Analytics Engineer",
+      "team": "Payments",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "dbt",
+        "sql",
+        "data modeling"
+      ],
+      "projects": [
+        {
+          "name": "Analytics Engineer Project 45",
+          "description": "Worked on analytics engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "dbt",
+            "sql",
+            "data modeling"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E046",
+      "name": "Employee 46",
+      "email": "employee46@demo-co.com",
+      "role": "Product Manager",
+      "team": "Infrastructure",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "product thinking",
+        "requirements",
+        "analytics"
+      ],
+      "projects": [
+        {
+          "name": "Product Manager Project 46",
+          "description": "Worked on product manager tasks related to system improvements and reliability.",
+          "tags": [
+            "product thinking",
+            "requirements",
+            "analytics"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E047",
+      "name": "Employee 47",
+      "email": "employee47@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Platform",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 47",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E048",
+      "name": "Employee 48",
+      "email": "employee48@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Core Services",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 48",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E049",
+      "name": "Employee 49",
+      "email": "employee49@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Web",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 49",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E050",
+      "name": "Employee 50",
+      "email": "employee50@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Infrastructure",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "sre",
+        "monitoring",
+        "incident response"
+      ],
+      "projects": [
+        {
+          "name": "Site Reliability Engineer Project 50",
+          "description": "Worked on site reliability engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "sre",
+            "monitoring",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E051",
+      "name": "Employee 51",
+      "email": "employee51@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Analytics",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 51",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E052",
+      "name": "Employee 52",
+      "email": "employee52@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Analytics",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 52",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E053",
+      "name": "Employee 53",
+      "email": "employee53@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Analytics",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "sre",
+        "monitoring",
+        "incident response"
+      ],
+      "projects": [
+        {
+          "name": "Site Reliability Engineer Project 53",
+          "description": "Worked on site reliability engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "sre",
+            "monitoring",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E054",
+      "name": "Employee 54",
+      "email": "employee54@demo-co.com",
+      "role": "Data Scientist",
+      "team": "Core Services",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "statistics",
+        "experimentation",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Data Scientist Project 54",
+          "description": "Worked on data scientist tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "statistics",
+            "experimentation"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E055",
+      "name": "Employee 55",
+      "email": "employee55@demo-co.com",
+      "role": "Data Engineer",
+      "team": "AI",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 55",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E056",
+      "name": "Employee 56",
+      "email": "employee56@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Core Services",
+      "seniority_level": 4,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 56",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E057",
+      "name": "Employee 57",
+      "email": "employee57@demo-co.com",
+      "role": "Machine Learning Engineer",
+      "team": "Search",
+      "seniority_level": 2,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "ml",
+        "feature engineering",
+        "evaluation"
+      ],
+      "projects": [
+        {
+          "name": "Machine Learning Engineer Project 57",
+          "description": "Worked on machine learning engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "ml",
+            "feature engineering"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E058",
+      "name": "Employee 58",
+      "email": "employee58@demo-co.com",
+      "role": "Frontend Engineer",
+      "team": "Growth",
+      "seniority_level": 4,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "react",
+        "typescript",
+        "ui",
+        "accessibility"
+      ],
+      "projects": [
+        {
+          "name": "Frontend Engineer Project 58",
+          "description": "Worked on frontend engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "react",
+            "typescript",
+            "ui"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E059",
+      "name": "Employee 59",
+      "email": "employee59@demo-co.com",
+      "role": "Machine Learning Engineer",
+      "team": "Infrastructure",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "ml",
+        "feature engineering",
+        "evaluation"
+      ],
+      "projects": [
+        {
+          "name": "Machine Learning Engineer Project 59",
+          "description": "Worked on machine learning engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "ml",
+            "feature engineering"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E060",
+      "name": "Employee 60",
+      "email": "employee60@demo-co.com",
+      "role": "Analytics Engineer",
+      "team": "Identity",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "dbt",
+        "sql",
+        "data modeling"
+      ],
+      "projects": [
+        {
+          "name": "Analytics Engineer Project 60",
+          "description": "Worked on analytics engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "dbt",
+            "sql",
+            "data modeling"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E061",
+      "name": "Employee 61",
+      "email": "employee61@demo-co.com",
+      "role": "Data Scientist",
+      "team": "Core Services",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "statistics",
+        "experimentation",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Data Scientist Project 61",
+          "description": "Worked on data scientist tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "statistics",
+            "experimentation"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-03",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E062",
+      "name": "Employee 62",
+      "email": "employee62@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Identity",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 62",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E063",
+      "name": "Employee 63",
+      "email": "employee63@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Core Services",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "sre",
+        "monitoring",
+        "incident response"
+      ],
+      "projects": [
+        {
+          "name": "Site Reliability Engineer Project 63",
+          "description": "Worked on site reliability engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "sre",
+            "monitoring",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-03",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E064",
+      "name": "Employee 64",
+      "email": "employee64@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Growth",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "sre",
+        "monitoring",
+        "incident response"
+      ],
+      "projects": [
+        {
+          "name": "Site Reliability Engineer Project 64",
+          "description": "Worked on site reliability engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "sre",
+            "monitoring",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E065",
+      "name": "Employee 65",
+      "email": "employee65@demo-co.com",
+      "role": "Frontend Engineer",
+      "team": "Web",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "react",
+        "typescript",
+        "ui",
+        "accessibility"
+      ],
+      "projects": [
+        {
+          "name": "Frontend Engineer Project 65",
+          "description": "Worked on frontend engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "react",
+            "typescript",
+            "ui"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E066",
+      "name": "Employee 66",
+      "email": "employee66@demo-co.com",
+      "role": "Data Scientist",
+      "team": "AI",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "statistics",
+        "experimentation",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Data Scientist Project 66",
+          "description": "Worked on data scientist tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "statistics",
+            "experimentation"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E067",
+      "name": "Employee 67",
+      "email": "employee67@demo-co.com",
+      "role": "Product Manager",
+      "team": "Analytics",
+      "seniority_level": 5,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "product thinking",
+        "requirements",
+        "analytics"
+      ],
+      "projects": [
+        {
+          "name": "Product Manager Project 67",
+          "description": "Worked on product manager tasks related to system improvements and reliability.",
+          "tags": [
+            "product thinking",
+            "requirements",
+            "analytics"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E068",
+      "name": "Employee 68",
+      "email": "employee68@demo-co.com",
+      "role": "Data Scientist",
+      "team": "Analytics",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "statistics",
+        "experimentation",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Data Scientist Project 68",
+          "description": "Worked on data scientist tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "statistics",
+            "experimentation"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E069",
+      "name": "Employee 69",
+      "email": "employee69@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Infrastructure",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 69",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E070",
+      "name": "Employee 70",
+      "email": "employee70@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Core Services",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 70",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E071",
+      "name": "Employee 71",
+      "email": "employee71@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "AI",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 71",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E072",
+      "name": "Employee 72",
+      "email": "employee72@demo-co.com",
+      "role": "Product Manager",
+      "team": "Growth",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "product thinking",
+        "requirements",
+        "analytics"
+      ],
+      "projects": [
+        {
+          "name": "Product Manager Project 72",
+          "description": "Worked on product manager tasks related to system improvements and reliability.",
+          "tags": [
+            "product thinking",
+            "requirements",
+            "analytics"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E073",
+      "name": "Employee 73",
+      "email": "employee73@demo-co.com",
+      "role": "Machine Learning Engineer",
+      "team": "Platform",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "ml",
+        "feature engineering",
+        "evaluation"
+      ],
+      "projects": [
+        {
+          "name": "Machine Learning Engineer Project 73",
+          "description": "Worked on machine learning engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "ml",
+            "feature engineering"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E074",
+      "name": "Employee 74",
+      "email": "employee74@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Payments",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 74",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E075",
+      "name": "Employee 75",
+      "email": "employee75@demo-co.com",
+      "role": "Frontend Engineer",
+      "team": "Growth",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "react",
+        "typescript",
+        "ui",
+        "accessibility"
+      ],
+      "projects": [
+        {
+          "name": "Frontend Engineer Project 75",
+          "description": "Worked on frontend engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "react",
+            "typescript",
+            "ui"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E076",
+      "name": "Employee 76",
+      "email": "employee76@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Growth",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 76",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E077",
+      "name": "Employee 77",
+      "email": "employee77@demo-co.com",
+      "role": "Analytics Engineer",
+      "team": "Core Services",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "dbt",
+        "sql",
+        "data modeling"
+      ],
+      "projects": [
+        {
+          "name": "Analytics Engineer Project 77",
+          "description": "Worked on analytics engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "dbt",
+            "sql",
+            "data modeling"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E078",
+      "name": "Employee 78",
+      "email": "employee78@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Platform",
+      "seniority_level": 4,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 78",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E079",
+      "name": "Employee 79",
+      "email": "employee79@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Web",
+      "seniority_level": 2,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "sre",
+        "monitoring",
+        "incident response"
+      ],
+      "projects": [
+        {
+          "name": "Site Reliability Engineer Project 79",
+          "description": "Worked on site reliability engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "sre",
+            "monitoring",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E080",
+      "name": "Employee 80",
+      "email": "employee80@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Platform",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 80",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E081",
+      "name": "Employee 81",
+      "email": "employee81@demo-co.com",
+      "role": "Machine Learning Engineer",
+      "team": "Growth",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "ml",
+        "feature engineering",
+        "evaluation"
+      ],
+      "projects": [
+        {
+          "name": "Machine Learning Engineer Project 81",
+          "description": "Worked on machine learning engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "ml",
+            "feature engineering"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E082",
+      "name": "Employee 82",
+      "email": "employee82@demo-co.com",
+      "role": "Product Manager",
+      "team": "AI",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "product thinking",
+        "requirements",
+        "analytics"
+      ],
+      "projects": [
+        {
+          "name": "Product Manager Project 82",
+          "description": "Worked on product manager tasks related to system improvements and reliability.",
+          "tags": [
+            "product thinking",
+            "requirements",
+            "analytics"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E083",
+      "name": "Employee 83",
+      "email": "employee83@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Platform",
+      "seniority_level": 2,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 83",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E084",
+      "name": "Employee 84",
+      "email": "employee84@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Search",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "sre",
+        "monitoring",
+        "incident response"
+      ],
+      "projects": [
+        {
+          "name": "Site Reliability Engineer Project 84",
+          "description": "Worked on site reliability engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "sre",
+            "monitoring",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E085",
+      "name": "Employee 85",
+      "email": "employee85@demo-co.com",
+      "role": "Data Scientist",
+      "team": "Identity",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "statistics",
+        "experimentation",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Data Scientist Project 85",
+          "description": "Worked on data scientist tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "statistics",
+            "experimentation"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E086",
+      "name": "Employee 86",
+      "email": "employee86@demo-co.com",
+      "role": "Frontend Engineer",
+      "team": "Identity",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "react",
+        "typescript",
+        "ui",
+        "accessibility"
+      ],
+      "projects": [
+        {
+          "name": "Frontend Engineer Project 86",
+          "description": "Worked on frontend engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "react",
+            "typescript",
+            "ui"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E087",
+      "name": "Employee 87",
+      "email": "employee87@demo-co.com",
+      "role": "Product Manager",
+      "team": "Infrastructure",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "product thinking",
+        "requirements",
+        "analytics"
+      ],
+      "projects": [
+        {
+          "name": "Product Manager Project 87",
+          "description": "Worked on product manager tasks related to system improvements and reliability.",
+          "tags": [
+            "product thinking",
+            "requirements",
+            "analytics"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E088",
+      "name": "Employee 88",
+      "email": "employee88@demo-co.com",
+      "role": "Machine Learning Engineer",
+      "team": "Analytics",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "ml",
+        "feature engineering",
+        "evaluation"
+      ],
+      "projects": [
+        {
+          "name": "Machine Learning Engineer Project 88",
+          "description": "Worked on machine learning engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "ml",
+            "feature engineering"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E089",
+      "name": "Employee 89",
+      "email": "employee89@demo-co.com",
+      "role": "Data Engineer",
+      "team": "AI",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 89",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E090",
+      "name": "Employee 90",
+      "email": "employee90@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Infrastructure",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "sre",
+        "monitoring",
+        "incident response"
+      ],
+      "projects": [
+        {
+          "name": "Site Reliability Engineer Project 90",
+          "description": "Worked on site reliability engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "sre",
+            "monitoring",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E091",
+      "name": "Employee 91",
+      "email": "employee91@demo-co.com",
+      "role": "Product Manager",
+      "team": "AI",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "product thinking",
+        "requirements",
+        "analytics"
+      ],
+      "projects": [
+        {
+          "name": "Product Manager Project 91",
+          "description": "Worked on product manager tasks related to system improvements and reliability.",
+          "tags": [
+            "product thinking",
+            "requirements",
+            "analytics"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E092",
+      "name": "Employee 92",
+      "email": "employee92@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Core Services",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 92",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E093",
+      "name": "Employee 93",
+      "email": "employee93@demo-co.com",
+      "role": "Data Scientist",
+      "team": "Web",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "statistics",
+        "experimentation",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Data Scientist Project 93",
+          "description": "Worked on data scientist tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "statistics",
+            "experimentation"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "day": "2026-02-03",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E094",
+      "name": "Employee 94",
+      "email": "employee94@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Web",
+      "seniority_level": 5,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 94",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E095",
+      "name": "Employee 95",
+      "email": "employee95@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Platform",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "DevOps Engineer Project 95",
+          "description": "Worked on devops engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "docker",
+            "kubernetes",
+            "ci/cd"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E096",
+      "name": "Employee 96",
+      "email": "employee96@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Platform",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 96",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E097",
+      "name": "Employee 97",
+      "email": "employee97@demo-co.com",
+      "role": "Software Engineer",
+      "team": "AI",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "apis",
+        "debugging",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "Software Engineer Project 97",
+          "description": "Worked on software engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "apis",
+            "debugging"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "day": "2026-02-03",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E098",
+      "name": "Employee 98",
+      "email": "employee98@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Identity",
+      "seniority_level": 2,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "sql",
+        "etl",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Data Engineer Project 98",
+          "description": "Worked on data engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "python",
+            "sql",
+            "etl"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-03",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E099",
+      "name": "Employee 99",
+      "email": "employee99@demo-co.com",
+      "role": "Frontend Engineer",
+      "team": "AI",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "react",
+        "typescript",
+        "ui",
+        "accessibility"
+      ],
+      "projects": [
+        {
+          "name": "Frontend Engineer Project 99",
+          "description": "Worked on frontend engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "react",
+            "typescript",
+            "ui"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E100",
+      "name": "Employee 100",
+      "email": "employee100@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Payments",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "sre",
+        "monitoring",
+        "incident response"
+      ],
+      "projects": [
+        {
+          "name": "Site Reliability Engineer Project 100",
+          "description": "Worked on site reliability engineer tasks related to system improvements and reliability.",
+          "tags": [
+            "sre",
+            "monitoring",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    }
+  ]
+}
