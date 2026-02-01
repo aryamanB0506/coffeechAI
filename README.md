@@ -1,6 +1,6 @@
 # ☕ CoffeechAI
 
-**CoffeechAI** is an AI-powered internal knowledge and mentorship agent that helps employees get answers fast—or get connected to the right people—without friction.
+**CoffeechAI** is an AI-powered internal knowledge and mentorship agent that helps employees get answers fast or get connected to the right people without friction.
 
 Instead of dumping users into docs or Slack threads, CoffeechAI intelligently decides whether a question should be answered by existing knowledge or escalated to a mentor, then handles the entire flow end-to-end.
 
@@ -8,7 +8,7 @@ Instead of dumping users into docs or Slack threads, CoffeechAI intelligently de
 
 ## 🚀 Elevator Pitch
 
-CoffeechAI connects employees to the right knowledge or the right people—instantly. It answers FAQs when possible and intelligently matches users with mentors when human guidance matters.
+CoffeechAI connects employees to the right knowledge or the right people instantly. It answers FAQs when possible and intelligently matches users with mentors when human guidance matters.
 
 ---
 
@@ -65,7 +65,7 @@ This hybrid approach ensures CoffeechAI behaves like a **trustworthy AI agent**,
 - Designing prompts that always return **valid, structured JSON**  
 
 **Most hackathon-worthy challenge:**  
-Building a reliable AI agent pipeline where every step behaves predictably—even under edge cases.
+Building a reliable AI agent pipeline where every step behaves predictably even under edge cases.
 
 ---
 
@@ -87,7 +87,7 @@ This project reinforced that **great AI agents are systems, not just models**.
 We learned that:
 - Hybrid systems (rules + AI) are far more reliable than AI alone  
 - Clear data contracts and strict JSON outputs are critical  
-- Workflow observability matters—small quirks can cascade quickly  
+- Workflow observability matters small quirks can cascade quickly  
 - Prompts must be treated like code: designed, tested, iterated  
 - Strong engineering is just as important as strong AI  
 
