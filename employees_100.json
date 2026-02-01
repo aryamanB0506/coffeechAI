@@ -1,0 +1,3488 @@
+{
+  "employees": [
+    {
+      "id": "E001",
+      "name": "Harper Singh",
+      "email": "harper.singh@demo-co.com",
+      "role": "ML Research Engineer",
+      "team": "Platform",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "training",
+        "documentation",
+        "optimization",
+        "research",
+        "evaluation",
+        "reproducibility",
+        "datadog",
+        "incident response",
+        "aws",
+        "tailwind",
+        "pytorch"
+      ],
+      "projects": [
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        },
+        {
+          "name": "TensorRT inference optimization",
+          "description": "Accelerated inference with TensorRT, FP16, and dynamic batching.",
+          "tags": [
+            "tensorrt",
+            "inference",
+            "optimization",
+            "quantization"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E002",
+      "name": "Wren Scott",
+      "email": "wren.scott@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Identity",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "argo cd",
+        "ci/cd",
+        "data pipelines",
+        "mentoring",
+        "grafana",
+        "great expectations",
+        "debugging",
+        "python",
+        "etl",
+        "push notifications",
+        "sast"
+      ],
+      "projects": [
+        {
+          "name": "Great Expectations data quality",
+          "description": "Introduced data contracts and automated validation in CI for critical tables.",
+          "tags": [
+            "great expectations",
+            "data quality",
+            "ci/cd",
+            "contracts"
+          ]
+        },
+        {
+          "name": "Argo CD drift detection",
+          "description": "Implemented GitOps with drift detection and automated remediation for critical namespaces.",
+          "tags": [
+            "argo cd",
+            "gitops",
+            "kubernetes",
+            "drift detection",
+            "policy"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E003",
+      "name": "Isabella Smith",
+      "email": "isabella.smith@demo-co.com",
+      "role": "QA Automation Engineer",
+      "team": "Platform",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "crashlytics",
+        "istio",
+        "playwright",
+        "grafana",
+        "cypress",
+        "typescript",
+        "kustomize",
+        "test automation",
+        "test strategy",
+        "docker"
+      ],
+      "projects": [
+        {
+          "name": "Service mesh mTLS rollout",
+          "description": "Rolled out mTLS service-to-service auth and traffic policies using a service mesh.",
+          "tags": [
+            "istio",
+            "service mesh",
+            "mtls",
+            "traffic policy",
+            "security"
+          ]
+        },
+        {
+          "name": "Mobile crash diagnostics",
+          "description": "Implemented Crashlytics dashboards and release health checks for mobile.",
+          "tags": [
+            "crashlytics",
+            "mobile",
+            "release",
+            "observability"
+          ]
+        },
+        {
+          "name": "OpenTelemetry tracing adoption",
+          "description": "Instrumented services with OTEL and standardized trace propagation across teams.",
+          "tags": [
+            "open telemetry",
+            "distributed tracing",
+            "observability",
+            "apis"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E004",
+      "name": "Talia Lee",
+      "email": "talia.lee@demo-co.com",
+      "role": "Full Stack Engineer",
+      "team": "Payments",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": false
+      },
+      "skills": [
+        "sql",
+        "gcp",
+        "react",
+        "crashlytics",
+        "testing",
+        "typescript",
+        "kubecost",
+        "linkerd",
+        "loki",
+        "argo cd",
+        "apis",
+        "prometheus"
+      ],
+      "projects": [
+        {
+          "name": "Argo CD drift detection",
+          "description": "Implemented GitOps with drift detection and automated remediation for critical namespaces.",
+          "tags": [
+            "argo cd",
+            "gitops",
+            "kubernetes",
+            "drift detection",
+            "policy"
+          ]
+        },
+        {
+          "name": "Cost optimization with Kubecost",
+          "description": "Reduced cluster spend by right-sizing workloads and enforcing quota policies.",
+          "tags": [
+            "kubecost",
+            "cost optimization",
+            "kubernetes",
+            "resource quotas"
+          ]
+        },
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E005",
+      "name": "Nina Young",
+      "email": "nina.young@demo-co.com",
+      "role": "ML Platform Engineer",
+      "team": "Search",
+      "seniority_level": 4,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "incident response",
+        "model serving",
+        "aws",
+        "sops",
+        "terraform",
+        "observability",
+        "jaeger",
+        "kubernetes",
+        "push notifications",
+        "feature store",
+        "pipelines",
+        "logical replication"
+      ],
+      "projects": [
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        },
+        {
+          "name": "OpenTelemetry tracing adoption",
+          "description": "Instrumented services with OTEL and standardized trace propagation across teams.",
+          "tags": [
+            "open telemetry",
+            "distributed tracing",
+            "observability",
+            "apis"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E006",
+      "name": "Mei Nelson",
+      "email": "mei.nelson@demo-co.com",
+      "role": "Mobile Engineer",
+      "team": "Security",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "kotlin",
+        "swift",
+        "triton",
+        "ui",
+        "postgresql",
+        "sops",
+        "git",
+        "testing",
+        "performance"
+      ],
+      "projects": [
+        {
+          "name": "Web Vitals improvement sprint",
+          "description": "Reduced LCP/CLS via code-splitting, image optimization, and caching.",
+          "tags": [
+            "web vitals",
+            "performance",
+            "react",
+            "caching"
+          ]
+        },
+        {
+          "name": "Iceberg table compaction",
+          "description": "Optimized lakehouse performance via compaction and partition evolution.",
+          "tags": [
+            "iceberg",
+            "compaction",
+            "data modeling",
+            "performance"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E007",
+      "name": "Leila Young",
+      "email": "leila.young@demo-co.com",
+      "role": "Product Manager",
+      "team": "Platform",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "terraform",
+        "requirements",
+        "prioritization",
+        "kubernetes",
+        "analytics",
+        "experimentation",
+        "roadmapping",
+        "stakeholder management",
+        "partitioning",
+        "push notifications"
+      ],
+      "projects": [
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        },
+        {
+          "name": "Argo CD drift detection",
+          "description": "Implemented GitOps with drift detection and automated remediation for critical namespaces.",
+          "tags": [
+            "argo cd",
+            "gitops",
+            "kubernetes",
+            "drift detection",
+            "policy"
+          ]
+        },
+        {
+          "name": "Postgres WAL archiving",
+          "description": "Implemented WAL archiving and PITR with S3-backed storage and validation drills.",
+          "tags": [
+            "postgres wal",
+            "backup",
+            "pitr",
+            "s3",
+            "reliability"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "day": "2026-02-03",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E008",
+      "name": "Ivy Wilson",
+      "email": "ivy.wilson@demo-co.com",
+      "role": "Observability Engineer",
+      "team": "Web",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "distributed tracing",
+        "web vitals",
+        "cuda graphs",
+        "open telemetry",
+        "metrics",
+        "waf rules",
+        "kubernetes",
+        "nsys"
+      ],
+      "projects": [
+        {
+          "name": "Web Vitals improvement sprint",
+          "description": "Reduced LCP/CLS via code-splitting, image optimization, and caching.",
+          "tags": [
+            "web vitals",
+            "performance",
+            "react",
+            "caching"
+          ]
+        },
+        {
+          "name": "Argo CD drift detection",
+          "description": "Implemented GitOps with drift detection and automated remediation for critical namespaces.",
+          "tags": [
+            "argo cd",
+            "gitops",
+            "kubernetes",
+            "drift detection",
+            "policy"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E009",
+      "name": "Zoe Scott",
+      "email": "zoe.scott@demo-co.com",
+      "role": "Analytics Engineer",
+      "team": "Mobile",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": false
+      },
+      "skills": [
+        "data modeling",
+        "lookml",
+        "tailwind",
+        "sql",
+        "grafana",
+        "prometheus",
+        "gcp",
+        "react query",
+        "great expectations"
+      ],
+      "projects": [
+        {
+          "name": "Iceberg table compaction",
+          "description": "Optimized lakehouse performance via compaction and partition evolution.",
+          "tags": [
+            "iceberg",
+            "compaction",
+            "data modeling",
+            "performance"
+          ]
+        },
+        {
+          "name": "dbt incremental models",
+          "description": "Converted models to incremental with robust backfills and freshness checks.",
+          "tags": [
+            "dbt",
+            "incremental",
+            "sql",
+            "data quality",
+            "backfill"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E010",
+      "name": "Wren Thomas",
+      "email": "wren.thomas@demo-co.com",
+      "role": "Platform Engineer",
+      "team": "Analytics",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": false
+      },
+      "skills": [
+        "llm evaluation",
+        "redis",
+        "service mesh",
+        "kubernetes",
+        "observability",
+        "linux",
+        "ci/cd",
+        "feature store",
+        "partitioning",
+        "developer tooling"
+      ],
+      "projects": [
+        {
+          "name": "Service mesh mTLS rollout",
+          "description": "Rolled out mTLS service-to-service auth and traffic policies using a service mesh.",
+          "tags": [
+            "istio",
+            "service mesh",
+            "mtls",
+            "traffic policy",
+            "security"
+          ]
+        },
+        {
+          "name": "Canary rollouts with Argo Rollouts",
+          "description": "Built progressive delivery pipelines with automated analysis and rollback triggers.",
+          "tags": [
+            "argo rollouts",
+            "canary",
+            "ci/cd",
+            "metrics",
+            "rollback"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E011",
+      "name": "Mateo Moore",
+      "email": "mateo.moore@demo-co.com",
+      "role": "Database Reliability Engineer",
+      "team": "Search",
+      "seniority_level": 4,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "performance tuning",
+        "rag",
+        "mysql",
+        "postgresql",
+        "backup",
+        "monitoring",
+        "replication",
+        "incident response",
+        "python",
+        "fluxcd",
+        "terraform"
+      ],
+      "projects": [
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        },
+        {
+          "name": "Terraform state migration",
+          "description": "Refactored Terraform modules and migrated state without downtime.",
+          "tags": [
+            "terraform",
+            "infrastructure as code",
+            "state migration",
+            "modules"
+          ]
+        },
+        {
+          "name": "Great Expectations data quality",
+          "description": "Introduced data contracts and automated validation in CI for critical tables.",
+          "tags": [
+            "great expectations",
+            "data quality",
+            "ci/cd",
+            "contracts"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E012",
+      "name": "Diego Moore",
+      "email": "diego.moore@demo-co.com",
+      "role": "Security Engineer",
+      "team": "Developer Experience",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "appsec",
+        "secrets management",
+        "gcp",
+        "ncu",
+        "oauth2",
+        "chaos engineering",
+        "vulnerability management",
+        "threat modeling",
+        "postgresql",
+        "jaeger",
+        "exactly-once",
+        "waf"
+      ],
+      "projects": [
+        {
+          "name": "CUDA profiling playbook",
+          "description": "Created a profiling playbook using Nsight tools and optimized kernel hotspots.",
+          "tags": [
+            "cuda",
+            "nsys",
+            "ncu",
+            "gpu profiling",
+            "optimization"
+          ]
+        },
+        {
+          "name": "Kafka exactly-once ingestion",
+          "description": "Built an ingestion pipeline with idempotency and transactional semantics.",
+          "tags": [
+            "kafka",
+            "exactly-once",
+            "etl",
+            "data pipelines",
+            "reliability"
+          ]
+        },
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E013",
+      "name": "Omar Taylor",
+      "email": "omar.taylor@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Infrastructure",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "incident response",
+        "monitoring",
+        "alerting",
+        "on-call",
+        "sbom",
+        "feature store",
+        "linux",
+        "gcp",
+        "documentation",
+        "sre",
+        "capacity planning"
+      ],
+      "projects": [
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        },
+        {
+          "name": "SBOM + supply chain hardening",
+          "description": "Rolled out SBOM generation and dependency policies for CI.",
+          "tags": [
+            "sbom",
+            "supply chain security",
+            "ci/cd",
+            "policy"
+          ]
+        },
+        {
+          "name": "dbt incremental models",
+          "description": "Converted models to incremental with robust backfills and freshness checks.",
+          "tags": [
+            "dbt",
+            "incremental",
+            "sql",
+            "data quality",
+            "backfill"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E014",
+      "name": "Clara Mitchell",
+      "email": "clara.mitchell@demo-co.com",
+      "role": "Cloud Architect",
+      "team": "AI",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "networking",
+        "aws",
+        "chaos engineering",
+        "git",
+        "vector database",
+        "mentoring",
+        "kustomize",
+        "architecture",
+        "kubernetes",
+        "terraform"
+      ],
+      "projects": [
+        {
+          "name": "Terraform state migration",
+          "description": "Refactored Terraform modules and migrated state without downtime.",
+          "tags": [
+            "terraform",
+            "infrastructure as code",
+            "state migration",
+            "modules"
+          ]
+        },
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        },
+        {
+          "name": "Postgres WAL archiving",
+          "description": "Implemented WAL archiving and PITR with S3-backed storage and validation drills.",
+          "tags": [
+            "postgres wal",
+            "backup",
+            "pitr",
+            "s3",
+            "reliability"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E015",
+      "name": "Liam Perez",
+      "email": "liam.perez@demo-co.com",
+      "role": "Backend Engineer",
+      "team": "Payments",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "quantization",
+        "gcp",
+        "scim",
+        "distributed systems",
+        "testing",
+        "python",
+        "nsys",
+        "sql",
+        "java",
+        "microservices",
+        "apis",
+        "kubernetes"
+      ],
+      "projects": [
+        {
+          "name": "OpenTelemetry tracing adoption",
+          "description": "Instrumented services with OTEL and standardized trace propagation across teams.",
+          "tags": [
+            "open telemetry",
+            "distributed tracing",
+            "observability",
+            "apis"
+          ]
+        },
+        {
+          "name": "Argo CD drift detection",
+          "description": "Implemented GitOps with drift detection and automated remediation for critical namespaces.",
+          "tags": [
+            "argo cd",
+            "gitops",
+            "kubernetes",
+            "drift detection",
+            "policy"
+          ]
+        },
+        {
+          "name": "Iceberg table compaction",
+          "description": "Optimized lakehouse performance via compaction and partition evolution.",
+          "tags": [
+            "iceberg",
+            "compaction",
+            "data modeling",
+            "performance"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E016",
+      "name": "Ravi Nelson",
+      "email": "ravi.nelson@demo-co.com",
+      "role": "Technical Program Manager",
+      "team": "Search",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "risk management",
+        "communication",
+        "tailwind",
+        "docker",
+        "python",
+        "delivery",
+        "helmfile",
+        "process",
+        "postgres wal",
+        "vault",
+        "iceberg"
+      ],
+      "projects": [
+        {
+          "name": "Postgres WAL archiving",
+          "description": "Implemented WAL archiving and PITR with S3-backed storage and validation drills.",
+          "tags": [
+            "postgres wal",
+            "backup",
+            "pitr",
+            "s3",
+            "reliability"
+          ]
+        },
+        {
+          "name": "Iceberg table compaction",
+          "description": "Optimized lakehouse performance via compaction and partition evolution.",
+          "tags": [
+            "iceberg",
+            "compaction",
+            "data modeling",
+            "performance"
+          ]
+        },
+        {
+          "name": "Cost optimization with Kubecost",
+          "description": "Reduced cluster spend by right-sizing workloads and enforcing quota policies.",
+          "tags": [
+            "kubecost",
+            "cost optimization",
+            "kubernetes",
+            "resource quotas"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-03",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E017",
+      "name": "Ivy Thomas",
+      "email": "ivy.thomas@demo-co.com",
+      "role": "Data Scientist",
+      "team": "Developer Experience",
+      "seniority_level": 1,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "experimentation",
+        "prometheus",
+        "modeling",
+        "rag",
+        "sql",
+        "python",
+        "statistics",
+        "causal inference",
+        "cuda graphs",
+        "pgbouncer"
+      ],
+      "projects": [
+        {
+          "name": "Postgres WAL archiving",
+          "description": "Implemented WAL archiving and PITR with S3-backed storage and validation drills.",
+          "tags": [
+            "postgres wal",
+            "backup",
+            "pitr",
+            "s3",
+            "reliability"
+          ]
+        },
+        {
+          "name": "SBOM + supply chain hardening",
+          "description": "Rolled out SBOM generation and dependency policies for CI.",
+          "tags": [
+            "sbom",
+            "supply chain security",
+            "ci/cd",
+            "policy"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E018",
+      "name": "Clara Patel",
+      "email": "clara.patel@demo-co.com",
+      "role": "Machine Learning Engineer",
+      "team": "Payments",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "redis",
+        "serving",
+        "kubecost",
+        "ml",
+        "terraform",
+        "python",
+        "model monitoring",
+        "helmfile",
+        "chaos engineering",
+        "evaluation",
+        "feature engineering"
+      ],
+      "projects": [
+        {
+          "name": "Cost optimization with Kubecost",
+          "description": "Reduced cluster spend by right-sizing workloads and enforcing quota policies.",
+          "tags": [
+            "kubecost",
+            "cost optimization",
+            "kubernetes",
+            "resource quotas"
+          ]
+        },
+        {
+          "name": "Terraform state migration",
+          "description": "Refactored Terraform modules and migrated state without downtime.",
+          "tags": [
+            "terraform",
+            "infrastructure as code",
+            "state migration",
+            "modules"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E019",
+      "name": "Ethan Perez",
+      "email": "ethan.perez@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Security",
+      "seniority_level": 4,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "docker",
+        "gcp",
+        "python",
+        "crashlytics",
+        "argo rollouts",
+        "git",
+        "kubernetes",
+        "github actions",
+        "linux"
+      ],
+      "projects": [
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        },
+        {
+          "name": "Canary rollouts with Argo Rollouts",
+          "description": "Built progressive delivery pipelines with automated analysis and rollback triggers.",
+          "tags": [
+            "argo rollouts",
+            "canary",
+            "ci/cd",
+            "metrics",
+            "rollback"
+          ]
+        },
+        {
+          "name": "CUDA profiling playbook",
+          "description": "Created a profiling playbook using Nsight tools and optimized kernel hotspots.",
+          "tags": [
+            "cuda",
+            "nsys",
+            "ncu",
+            "gpu profiling",
+            "optimization"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E020",
+      "name": "Isabella Torres",
+      "email": "isabella.torres@demo-co.com",
+      "role": "Frontend Engineer",
+      "team": "Payments",
+      "seniority_level": 5,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "sops",
+        "performance",
+        "accessibility",
+        "istio",
+        "ui",
+        "react",
+        "testing",
+        "css",
+        "gcp",
+        "typescript"
+      ],
+      "projects": [
+        {
+          "name": "NCCL tuning for multi-GPU",
+          "description": "Improved all-reduce performance by tuning NCCL topology and env flags.",
+          "tags": [
+            "nccl",
+            "multi-gpu",
+            "training",
+            "performance",
+            "cuda"
+          ]
+        },
+        {
+          "name": "Iceberg table compaction",
+          "description": "Optimized lakehouse performance via compaction and partition evolution.",
+          "tags": [
+            "iceberg",
+            "compaction",
+            "data modeling",
+            "performance"
+          ]
+        },
+        {
+          "name": "Postgres WAL archiving",
+          "description": "Implemented WAL archiving and PITR with S3-backed storage and validation drills.",
+          "tags": [
+            "postgres wal",
+            "backup",
+            "pitr",
+            "s3",
+            "reliability"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E021",
+      "name": "Kai Perez",
+      "email": "kai.perez@demo-co.com",
+      "role": "ML Research Engineer",
+      "team": "Payments",
+      "seniority_level": 4,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "kubernetes",
+        "web vitals",
+        "research",
+        "storybook",
+        "reproducibility",
+        "opa",
+        "optimization",
+        "mentoring"
+      ],
+      "projects": [
+        {
+          "name": "Web Vitals improvement sprint",
+          "description": "Reduced LCP/CLS via code-splitting, image optimization, and caching.",
+          "tags": [
+            "web vitals",
+            "performance",
+            "react",
+            "caching"
+          ]
+        },
+        {
+          "name": "Cost optimization with Kubecost",
+          "description": "Reduced cluster spend by right-sizing workloads and enforcing quota policies.",
+          "tags": [
+            "kubecost",
+            "cost optimization",
+            "kubernetes",
+            "resource quotas"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E022",
+      "name": "Mei Smith",
+      "email": "mei.smith@demo-co.com",
+      "role": "Data Engineer",
+      "team": "ML Platform",
+      "seniority_level": 3,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "cuda graphs",
+        "spark",
+        "etl",
+        "nccl",
+        "sql",
+        "prompt engineering",
+        "triton",
+        "python",
+        "ci/cd",
+        "airflow"
+      ],
+      "projects": [
+        {
+          "name": "Kafka exactly-once ingestion",
+          "description": "Built an ingestion pipeline with idempotency and transactional semantics.",
+          "tags": [
+            "kafka",
+            "exactly-once",
+            "etl",
+            "data pipelines",
+            "reliability"
+          ]
+        },
+        {
+          "name": "dbt incremental models",
+          "description": "Converted models to incremental with robust backfills and freshness checks.",
+          "tags": [
+            "dbt",
+            "incremental",
+            "sql",
+            "data quality",
+            "backfill"
+          ]
+        },
+        {
+          "name": "Web Vitals improvement sprint",
+          "description": "Reduced LCP/CLS via code-splitting, image optimization, and caching.",
+          "tags": [
+            "web vitals",
+            "performance",
+            "react",
+            "caching"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E023",
+      "name": "Ethan Hernandez",
+      "email": "ethan.hernandez@demo-co.com",
+      "role": "QA Automation Engineer",
+      "team": "Web",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "typescript",
+        "retrieval",
+        "python",
+        "cypress",
+        "test strategy",
+        "vault",
+        "ci/cd",
+        "playwright",
+        "test automation",
+        "react query",
+        "snowflake"
+      ],
+      "projects": [
+        {
+          "name": "Canary rollouts with Argo Rollouts",
+          "description": "Built progressive delivery pipelines with automated analysis and rollback triggers.",
+          "tags": [
+            "argo rollouts",
+            "canary",
+            "ci/cd",
+            "metrics",
+            "rollback"
+          ]
+        },
+        {
+          "name": "Great Expectations data quality",
+          "description": "Introduced data contracts and automated validation in CI for critical tables.",
+          "tags": [
+            "great expectations",
+            "data quality",
+            "ci/cd",
+            "contracts"
+          ]
+        },
+        {
+          "name": "OpenTelemetry tracing adoption",
+          "description": "Instrumented services with OTEL and standardized trace propagation across teams.",
+          "tags": [
+            "open telemetry",
+            "distributed tracing",
+            "observability",
+            "apis"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "day": "2026-02-03",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E024",
+      "name": "Yara Garcia",
+      "email": "yara.garcia@demo-co.com",
+      "role": "Full Stack Engineer",
+      "team": "Mobile",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": false
+      },
+      "skills": [
+        "apis",
+        "triton",
+        "testing",
+        "jaeger",
+        "node.js",
+        "gcp",
+        "system design",
+        "react",
+        "typescript",
+        "sql"
+      ],
+      "projects": [
+        {
+          "name": "dbt incremental models",
+          "description": "Converted models to incremental with robust backfills and freshness checks.",
+          "tags": [
+            "dbt",
+            "incremental",
+            "sql",
+            "data quality",
+            "backfill"
+          ]
+        },
+        {
+          "name": "Web Vitals improvement sprint",
+          "description": "Reduced LCP/CLS via code-splitting, image optimization, and caching.",
+          "tags": [
+            "web vitals",
+            "performance",
+            "react",
+            "caching"
+          ]
+        },
+        {
+          "name": "Postgres WAL archiving",
+          "description": "Implemented WAL archiving and PITR with S3-backed storage and validation drills.",
+          "tags": [
+            "postgres wal",
+            "backup",
+            "pitr",
+            "s3",
+            "reliability"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E025",
+      "name": "Arjun Young",
+      "email": "arjun.young@demo-co.com",
+      "role": "ML Platform Engineer",
+      "team": "Payments",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "kubernetes",
+        "swiftui",
+        "tensorrt",
+        "aws",
+        "ci/cd",
+        "helmfile",
+        "pipelines",
+        "model serving",
+        "redshift"
+      ],
+      "projects": [
+        {
+          "name": "Great Expectations data quality",
+          "description": "Introduced data contracts and automated validation in CI for critical tables.",
+          "tags": [
+            "great expectations",
+            "data quality",
+            "ci/cd",
+            "contracts"
+          ]
+        },
+        {
+          "name": "Cost optimization with Kubecost",
+          "description": "Reduced cluster spend by right-sizing workloads and enforcing quota policies.",
+          "tags": [
+            "kubecost",
+            "cost optimization",
+            "kubernetes",
+            "resource quotas"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E026",
+      "name": "Mei Nguyen",
+      "email": "mei.nguyen@demo-co.com",
+      "role": "Mobile Engineer",
+      "team": "Payments",
+      "seniority_level": 4,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "postgresql",
+        "performance",
+        "python",
+        "swift",
+        "aws",
+        "flash attention",
+        "kotlin",
+        "postgres wal",
+        "offline storage",
+        "ui"
+      ],
+      "projects": [
+        {
+          "name": "Web Vitals improvement sprint",
+          "description": "Reduced LCP/CLS via code-splitting, image optimization, and caching.",
+          "tags": [
+            "web vitals",
+            "performance",
+            "react",
+            "caching"
+          ]
+        },
+        {
+          "name": "NCCL tuning for multi-GPU",
+          "description": "Improved all-reduce performance by tuning NCCL topology and env flags.",
+          "tags": [
+            "nccl",
+            "multi-gpu",
+            "training",
+            "performance",
+            "cuda"
+          ]
+        },
+        {
+          "name": "Argo CD drift detection",
+          "description": "Implemented GitOps with drift detection and automated remediation for critical namespaces.",
+          "tags": [
+            "argo cd",
+            "gitops",
+            "kubernetes",
+            "drift detection",
+            "policy"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "day": "2026-02-03",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E027",
+      "name": "Mateo Lewis",
+      "email": "mateo.lewis@demo-co.com",
+      "role": "Product Manager",
+      "team": "Core Services",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "supply chain security",
+        "design systems",
+        "analytics",
+        "product thinking",
+        "docker",
+        "requirements",
+        "stakeholder management",
+        "sops",
+        "python"
+      ],
+      "projects": [
+        {
+          "name": "SBOM + supply chain hardening",
+          "description": "Rolled out SBOM generation and dependency policies for CI.",
+          "tags": [
+            "sbom",
+            "supply chain security",
+            "ci/cd",
+            "policy"
+          ]
+        },
+        {
+          "name": "Design system + Storybook",
+          "description": "Built a reusable component library with tokens and Storybook docs.",
+          "tags": [
+            "design systems",
+            "storybook",
+            "ui",
+            "accessibility"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E028",
+      "name": "Mei Thomas",
+      "email": "mei.thomas@demo-co.com",
+      "role": "Observability Engineer",
+      "team": "Identity",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "distributed tracing",
+        "grafana",
+        "alerting",
+        "i18n",
+        "metrics",
+        "kubecost",
+        "pgbouncer",
+        "design systems",
+        "git",
+        "gcp",
+        "kafka",
+        "prometheus",
+        "logging",
+        "kubernetes"
+      ],
+      "projects": [
+        {
+          "name": "Cost optimization with Kubecost",
+          "description": "Reduced cluster spend by right-sizing workloads and enforcing quota policies.",
+          "tags": [
+            "kubecost",
+            "cost optimization",
+            "kubernetes",
+            "resource quotas"
+          ]
+        },
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E029",
+      "name": "Olivia Martinez",
+      "email": "olivia.martinez@demo-co.com",
+      "role": "Analytics Engineer",
+      "team": "Data Platform",
+      "seniority_level": 3,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "python",
+        "delta lake",
+        "linkerd",
+        "documentation",
+        "lookml",
+        "warehouse",
+        "dbt",
+        "sql",
+        "data modeling",
+        "metrics"
+      ],
+      "projects": [
+        {
+          "name": "Canary rollouts with Argo Rollouts",
+          "description": "Built progressive delivery pipelines with automated analysis and rollback triggers.",
+          "tags": [
+            "argo rollouts",
+            "canary",
+            "ci/cd",
+            "metrics",
+            "rollback"
+          ]
+        },
+        {
+          "name": "dbt incremental models",
+          "description": "Converted models to incremental with robust backfills and freshness checks.",
+          "tags": [
+            "dbt",
+            "incremental",
+            "sql",
+            "data quality",
+            "backfill"
+          ]
+        },
+        {
+          "name": "Argo CD drift detection",
+          "description": "Implemented GitOps with drift detection and automated remediation for critical namespaces.",
+          "tags": [
+            "argo cd",
+            "gitops",
+            "kubernetes",
+            "drift detection",
+            "policy"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E030",
+      "name": "Maya Lewis",
+      "email": "maya.lewis@demo-co.com",
+      "role": "Platform Engineer",
+      "team": "Identity",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": false
+      },
+      "skills": [
+        "linux",
+        "web vitals",
+        "developer tooling",
+        "observability",
+        "postgresql",
+        "communication",
+        "bigquery",
+        "push notifications",
+        "service mesh",
+        "istio",
+        "kafka",
+        "ci/cd"
+      ],
+      "projects": [
+        {
+          "name": "Mobile crash diagnostics",
+          "description": "Implemented Crashlytics dashboards and release health checks for mobile.",
+          "tags": [
+            "crashlytics",
+            "mobile",
+            "release",
+            "observability"
+          ]
+        },
+        {
+          "name": "Canary rollouts with Argo Rollouts",
+          "description": "Built progressive delivery pipelines with automated analysis and rollback triggers.",
+          "tags": [
+            "argo rollouts",
+            "canary",
+            "ci/cd",
+            "metrics",
+            "rollback"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E031",
+      "name": "Amir Lopez",
+      "email": "amir.lopez@demo-co.com",
+      "role": "Database Reliability Engineer",
+      "team": "Analytics",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "snowflake",
+        "monitoring",
+        "backup",
+        "incident response",
+        "triton",
+        "postgresql",
+        "saml",
+        "docker"
+      ],
+      "projects": [
+        {
+          "name": "SAML SSO integration",
+          "description": "Integrated SAML SSO with SCIM provisioning and audited access controls.",
+          "tags": [
+            "saml",
+            "sso",
+            "scim",
+            "identity",
+            "security"
+          ]
+        },
+        {
+          "name": "Postgres WAL archiving",
+          "description": "Implemented WAL archiving and PITR with S3-backed storage and validation drills.",
+          "tags": [
+            "postgres wal",
+            "backup",
+            "pitr",
+            "s3",
+            "reliability"
+          ]
+        },
+        {
+          "name": "Canary rollouts with Argo Rollouts",
+          "description": "Built progressive delivery pipelines with automated analysis and rollback triggers.",
+          "tags": [
+            "argo rollouts",
+            "canary",
+            "ci/cd",
+            "metrics",
+            "rollback"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E032",
+      "name": "Ivy Nelson",
+      "email": "ivy.nelson@demo-co.com",
+      "role": "Security Engineer",
+      "team": "Growth",
+      "seniority_level": 4,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "secrets management",
+        "sso",
+        "sbom",
+        "ci/cd",
+        "debugging",
+        "oauth2",
+        "flash attention",
+        "threat modeling"
+      ],
+      "projects": [
+        {
+          "name": "Canary rollouts with Argo Rollouts",
+          "description": "Built progressive delivery pipelines with automated analysis and rollback triggers.",
+          "tags": [
+            "argo rollouts",
+            "canary",
+            "ci/cd",
+            "metrics",
+            "rollback"
+          ]
+        },
+        {
+          "name": "SAML SSO integration",
+          "description": "Integrated SAML SSO with SCIM provisioning and audited access controls.",
+          "tags": [
+            "saml",
+            "sso",
+            "scim",
+            "identity",
+            "security"
+          ]
+        },
+        {
+          "name": "Terraform state migration",
+          "description": "Refactored Terraform modules and migrated state without downtime.",
+          "tags": [
+            "terraform",
+            "infrastructure as code",
+            "state migration",
+            "modules"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E033",
+      "name": "Zoe Nelson",
+      "email": "zoe.nelson@demo-co.com",
+      "role": "Site Reliability Engineer",
+      "team": "Mobile",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "sre",
+        "linux",
+        "on-call",
+        "docker",
+        "mentoring",
+        "gcp",
+        "ci/cd",
+        "logical replication",
+        "incident response"
+      ],
+      "projects": [
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        },
+        {
+          "name": "SBOM + supply chain hardening",
+          "description": "Rolled out SBOM generation and dependency policies for CI.",
+          "tags": [
+            "sbom",
+            "supply chain security",
+            "ci/cd",
+            "policy"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E034",
+      "name": "Mei Allen",
+      "email": "mei.allen@demo-co.com",
+      "role": "Cloud Architect",
+      "team": "Analytics",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "architecture",
+        "terraform",
+        "security",
+        "cost optimization",
+        "kubernetes",
+        "datadog",
+        "docker",
+        "gcp",
+        "aws",
+        "networking",
+        "delta lake"
+      ],
+      "projects": [
+        {
+          "name": "Cost optimization with Kubecost",
+          "description": "Reduced cluster spend by right-sizing workloads and enforcing quota policies.",
+          "tags": [
+            "kubecost",
+            "cost optimization",
+            "kubernetes",
+            "resource quotas"
+          ]
+        },
+        {
+          "name": "Terraform state migration",
+          "description": "Refactored Terraform modules and migrated state without downtime.",
+          "tags": [
+            "terraform",
+            "infrastructure as code",
+            "state migration",
+            "modules"
+          ]
+        },
+        {
+          "name": "dbt incremental models",
+          "description": "Converted models to incremental with robust backfills and freshness checks.",
+          "tags": [
+            "dbt",
+            "incremental",
+            "sql",
+            "data quality",
+            "backfill"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E035",
+      "name": "Zoe Jackson",
+      "email": "zoe.jackson@demo-co.com",
+      "role": "Backend Engineer",
+      "team": "Security",
+      "seniority_level": 4,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "redis",
+        "sops",
+        "incident response",
+        "java",
+        "apis",
+        "partitioning",
+        "distributed systems",
+        "documentation"
+      ],
+      "projects": [
+        {
+          "name": "OpenTelemetry tracing adoption",
+          "description": "Instrumented services with OTEL and standardized trace propagation across teams.",
+          "tags": [
+            "open telemetry",
+            "distributed tracing",
+            "observability",
+            "apis"
+          ]
+        },
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E036",
+      "name": "Olivia Jackson",
+      "email": "olivia.jackson@demo-co.com",
+      "role": "Technical Program Manager",
+      "team": "Mobile",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "retrieval",
+        "communication",
+        "rds proxy",
+        "aws",
+        "git",
+        "delivery",
+        "roadmapping",
+        "stakeholder management",
+        "risk management",
+        "docker",
+        "program management",
+        "process",
+        "istio"
+      ],
+      "projects": [
+        {
+          "name": "Great Expectations data quality",
+          "description": "Introduced data contracts and automated validation in CI for critical tables.",
+          "tags": [
+            "great expectations",
+            "data quality",
+            "ci/cd",
+            "contracts"
+          ]
+        },
+        {
+          "name": "CUDA profiling playbook",
+          "description": "Created a profiling playbook using Nsight tools and optimized kernel hotspots.",
+          "tags": [
+            "cuda",
+            "nsys",
+            "ncu",
+            "gpu profiling",
+            "optimization"
+          ]
+        },
+        {
+          "name": "dbt incremental models",
+          "description": "Converted models to incremental with robust backfills and freshness checks.",
+          "tags": [
+            "dbt",
+            "incremental",
+            "sql",
+            "data quality",
+            "backfill"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E037",
+      "name": "Ravi Hernandez",
+      "email": "ravi.hernandez@demo-co.com",
+      "role": "Data Scientist",
+      "team": "Growth",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "logical replication",
+        "sql",
+        "causal inference",
+        "experimentation",
+        "statistics",
+        "python",
+        "gcp",
+        "modeling",
+        "jaeger"
+      ],
+      "projects": [
+        {
+          "name": "Iceberg table compaction",
+          "description": "Optimized lakehouse performance via compaction and partition evolution.",
+          "tags": [
+            "iceberg",
+            "compaction",
+            "data modeling",
+            "performance"
+          ]
+        },
+        {
+          "name": "OpenTelemetry tracing adoption",
+          "description": "Instrumented services with OTEL and standardized trace propagation across teams.",
+          "tags": [
+            "open telemetry",
+            "distributed tracing",
+            "observability",
+            "apis"
+          ]
+        },
+        {
+          "name": "Argo CD drift detection",
+          "description": "Implemented GitOps with drift detection and automated remediation for critical namespaces.",
+          "tags": [
+            "argo cd",
+            "gitops",
+            "kubernetes",
+            "drift detection",
+            "policy"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E038",
+      "name": "Samir Nguyen",
+      "email": "samir.nguyen@demo-co.com",
+      "role": "Machine Learning Engineer",
+      "team": "ML Platform",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "New York",
+        "timezone": "America/New_York",
+        "remote_ok": true
+      },
+      "skills": [
+        "pipelines",
+        "evaluation",
+        "docker",
+        "feature engineering",
+        "python",
+        "redshift",
+        "postgresql",
+        "argo cd",
+        "terraform",
+        "push notifications"
+      ],
+      "projects": [
+        {
+          "name": "Argo CD drift detection",
+          "description": "Implemented GitOps with drift detection and automated remediation for critical namespaces.",
+          "tags": [
+            "argo cd",
+            "gitops",
+            "kubernetes",
+            "drift detection",
+            "policy"
+          ]
+        },
+        {
+          "name": "Terraform state migration",
+          "description": "Refactored Terraform modules and migrated state without downtime.",
+          "tags": [
+            "terraform",
+            "infrastructure as code",
+            "state migration",
+            "modules"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "11:00",
+            "end": "12:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E039",
+      "name": "Ivy Moore",
+      "email": "ivy.moore@demo-co.com",
+      "role": "DevOps Engineer",
+      "team": "Analytics",
+      "seniority_level": 5,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "github actions",
+        "helm",
+        "ci/cd",
+        "kubernetes",
+        "gcp",
+        "docker",
+        "vault",
+        "siem",
+        "terraform"
+      ],
+      "projects": [
+        {
+          "name": "Multi-cluster failover runbooks",
+          "description": "Designed active-active failover across two Kubernetes clusters with automated DNS cutover and runbooks.",
+          "tags": [
+            "kubernetes",
+            "multi-cluster",
+            "failover",
+            "dns",
+            "runbooks",
+            "incident response"
+          ]
+        },
+        {
+          "name": "Great Expectations data quality",
+          "description": "Introduced data contracts and automated validation in CI for critical tables.",
+          "tags": [
+            "great expectations",
+            "data quality",
+            "ci/cd",
+            "contracts"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "day": "2026-02-06",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E040",
+      "name": "Arjun Anderson",
+      "email": "arjun.anderson@demo-co.com",
+      "role": "Frontend Engineer",
+      "team": "Security",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": false
+      },
+      "skills": [
+        "git",
+        "ui",
+        "testing",
+        "redshift",
+        "performance",
+        "fluxcd",
+        "accessibility",
+        "react"
+      ],
+      "projects": [
+        {
+          "name": "Design system + Storybook",
+          "description": "Built a reusable component library with tokens and Storybook docs.",
+          "tags": [
+            "design systems",
+            "storybook",
+            "ui",
+            "accessibility"
+          ]
+        },
+        {
+          "name": "NCCL tuning for multi-GPU",
+          "description": "Improved all-reduce performance by tuning NCCL topology and env flags.",
+          "tags": [
+            "nccl",
+            "multi-gpu",
+            "training",
+            "performance",
+            "cuda"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E041",
+      "name": "Samir King",
+      "email": "samir.king@demo-co.com",
+      "role": "ML Research Engineer",
+      "team": "Identity",
+      "seniority_level": 4,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": false
+      },
+      "skills": [
+        "optimization",
+        "pytorch",
+        "istio",
+        "git",
+        "research",
+        "terraform",
+        "cuda",
+        "redis",
+        "training"
+      ],
+      "projects": [
+        {
+          "name": "CUDA profiling playbook",
+          "description": "Created a profiling playbook using Nsight tools and optimized kernel hotspots.",
+          "tags": [
+            "cuda",
+            "nsys",
+            "ncu",
+            "gpu profiling",
+            "optimization"
+          ]
+        },
+        {
+          "name": "Service mesh mTLS rollout",
+          "description": "Rolled out mTLS service-to-service auth and traffic policies using a service mesh.",
+          "tags": [
+            "istio",
+            "service mesh",
+            "mtls",
+            "traffic policy",
+            "security"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E042",
+      "name": "Vikram Wilson",
+      "email": "vikram.wilson@demo-co.com",
+      "role": "Data Engineer",
+      "team": "Mobile",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "react query",
+        "loki",
+        "aws",
+        "spark",
+        "etl",
+        "sql",
+        "feature store",
+        "ci/cd",
+        "airflow",
+        "data pipelines"
+      ],
+      "projects": [
+        {
+          "name": "Great Expectations data quality",
+          "description": "Introduced data contracts and automated validation in CI for critical tables.",
+          "tags": [
+            "great expectations",
+            "data quality",
+            "ci/cd",
+            "contracts"
+          ]
+        },
+        {
+          "name": "dbt incremental models",
+          "description": "Converted models to incremental with robust backfills and freshness checks.",
+          "tags": [
+            "dbt",
+            "incremental",
+            "sql",
+            "data quality",
+            "backfill"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E043",
+      "name": "Olivia Moore",
+      "email": "olivia.moore@demo-co.com",
+      "role": "QA Automation Engineer",
+      "team": "Security",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "typescript",
+        "test strategy",
+        "ci/cd",
+        "cuda graphs",
+        "playwright",
+        "cypress",
+        "tempo",
+        "redshift"
+      ],
+      "projects": [
+        {
+          "name": "Great Expectations data quality",
+          "description": "Introduced data contracts and automated validation in CI for critical tables.",
+          "tags": [
+            "great expectations",
+            "data quality",
+            "ci/cd",
+            "contracts"
+          ]
+        },
+        {
+          "name": "Canary rollouts with Argo Rollouts",
+          "description": "Built progressive delivery pipelines with automated analysis and rollback triggers.",
+          "tags": [
+            "argo rollouts",
+            "canary",
+            "ci/cd",
+            "metrics",
+            "rollback"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "13:00",
+            "end": "14:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E044",
+      "name": "Zoe Thomas",
+      "email": "zoe.thomas@demo-co.com",
+      "role": "Full Stack Engineer",
+      "team": "Growth",
+      "seniority_level": 2,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "react",
+        "system design",
+        "apis",
+        "feature store",
+        "redis",
+        "siem",
+        "ncu",
+        "git",
+        "fluxcd",
+        "sql",
+        "node.js",
+        "argo cd"
+      ],
+      "projects": [
+        {
+          "name": "dbt incremental models",
+          "description": "Converted models to incremental with robust backfills and freshness checks.",
+          "tags": [
+            "dbt",
+            "incremental",
+            "sql",
+            "data quality",
+            "backfill"
+          ]
+        },
+        {
+          "name": "OpenTelemetry tracing adoption",
+          "description": "Instrumented services with OTEL and standardized trace propagation across teams.",
+          "tags": [
+            "open telemetry",
+            "distributed tracing",
+            "observability",
+            "apis"
+          ]
+        },
+        {
+          "name": "Terraform state migration",
+          "description": "Refactored Terraform modules and migrated state without downtime.",
+          "tags": [
+            "terraform",
+            "infrastructure as code",
+            "state migration",
+            "modules"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-02",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E045",
+      "name": "Hana Johnson",
+      "email": "hana.johnson@demo-co.com",
+      "role": "ML Platform Engineer",
+      "team": "Analytics",
+      "seniority_level": 4,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "kubernetes",
+        "snowflake",
+        "terraform",
+        "feature store",
+        "logical replication",
+        "pipelines",
+        "waf rules",
+        "observability",
+        "istio"
+      ],
+      "projects": [
+        {
+          "name": "Terraform state migration",
+          "description": "Refactored Terraform modules and migrated state without downtime.",
+          "tags": [
+            "terraform",
+            "infrastructure as code",
+            "state migration",
+            "modules"
+          ]
+        },
+        {
+          "name": "Mobile crash diagnostics",
+          "description": "Implemented Crashlytics dashboards and release health checks for mobile.",
+          "tags": [
+            "crashlytics",
+            "mobile",
+            "release",
+            "observability"
+          ]
+        },
+        {
+          "name": "Web Vitals improvement sprint",
+          "description": "Reduced LCP/CLS via code-splitting, image optimization, and caching.",
+          "tags": [
+            "web vitals",
+            "performance",
+            "react",
+            "caching"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-05",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "14:00",
+            "end": "15:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E046",
+      "name": "Ivy King",
+      "email": "ivy.king@demo-co.com",
+      "role": "Mobile Engineer",
+      "team": "Search",
+      "seniority_level": 3,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "datadog",
+        "performance",
+        "ci/cd",
+        "swift",
+        "loki",
+        "docker",
+        "testing",
+        "ui",
+        "debugging",
+        "mobile ci",
+        "dast",
+        "kotlin"
+      ],
+      "projects": [
+        {
+          "name": "Iceberg table compaction",
+          "description": "Optimized lakehouse performance via compaction and partition evolution.",
+          "tags": [
+            "iceberg",
+            "compaction",
+            "data modeling",
+            "performance"
+          ]
+        },
+        {
+          "name": "Web Vitals improvement sprint",
+          "description": "Reduced LCP/CLS via code-splitting, image optimization, and caching.",
+          "tags": [
+            "web vitals",
+            "performance",
+            "react",
+            "caching"
+          ]
+        },
+        {
+          "name": "Service mesh mTLS rollout",
+          "description": "Rolled out mTLS service-to-service auth and traffic policies using a service mesh.",
+          "tags": [
+            "istio",
+            "service mesh",
+            "mtls",
+            "traffic policy",
+            "security"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "10:00",
+            "end": "11:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E047",
+      "name": "Priya Singh",
+      "email": "priya.singh@demo-co.com",
+      "role": "Product Manager",
+      "team": "AI",
+      "seniority_level": 3,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "sops",
+        "nccl",
+        "product thinking",
+        "git",
+        "argo rollouts",
+        "stakeholder management",
+        "analytics",
+        "requirements",
+        "experimentation",
+        "prioritization",
+        "redis"
+      ],
+      "projects": [
+        {
+          "name": "NCCL tuning for multi-GPU",
+          "description": "Improved all-reduce performance by tuning NCCL topology and env flags.",
+          "tags": [
+            "nccl",
+            "multi-gpu",
+            "training",
+            "performance",
+            "cuda"
+          ]
+        },
+        {
+          "name": "Canary rollouts with Argo Rollouts",
+          "description": "Built progressive delivery pipelines with automated analysis and rollback triggers.",
+          "tags": [
+            "argo rollouts",
+            "canary",
+            "ci/cd",
+            "metrics",
+            "rollback"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "day": "2026-02-02",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E048",
+      "name": "Keiko Hill",
+      "email": "keiko.hill@demo-co.com",
+      "role": "Observability Engineer",
+      "team": "Search",
+      "seniority_level": 3,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "remote_ok": true
+      },
+      "skills": [
+        "redis",
+        "tensorrt",
+        "distributed tracing",
+        "open telemetry",
+        "feature store",
+        "logical replication",
+        "alerting",
+        "grafana",
+        "cuda graphs",
+        "rag",
+        "logging",
+        "prometheus"
+      ],
+      "projects": [
+        {
+          "name": "TensorRT inference optimization",
+          "description": "Accelerated inference with TensorRT, FP16, and dynamic batching.",
+          "tags": [
+            "tensorrt",
+            "inference",
+            "optimization",
+            "quantization"
+          ]
+        },
+        {
+          "name": "OpenTelemetry tracing adoption",
+          "description": "Instrumented services with OTEL and standardized trace propagation across teams.",
+          "tags": [
+            "open telemetry",
+            "distributed tracing",
+            "observability",
+            "apis"
+          ]
+        },
+        {
+          "name": "Cost optimization with Kubecost",
+          "description": "Reduced cluster spend by right-sizing workloads and enforcing quota policies.",
+          "tags": [
+            "kubecost",
+            "cost optimization",
+            "kubernetes",
+            "resource quotas"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-03",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-04",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "day": "2026-02-05",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E049",
+      "name": "Kai Adams",
+      "email": "kai.adams@demo-co.com",
+      "role": "Analytics Engineer",
+      "team": "Analytics",
+      "seniority_level": 3,
+      "open_to_mentoring": true,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "argo rollouts",
+        "communication",
+        "sql",
+        "scim",
+        "data modeling",
+        "lookml",
+        "i18n",
+        "metrics",
+        "waf rules",
+        "documentation",
+        "dbt"
+      ],
+      "projects": [
+        {
+          "name": "Canary rollouts with Argo Rollouts",
+          "description": "Built progressive delivery pipelines with automated analysis and rollback triggers.",
+          "tags": [
+            "argo rollouts",
+            "canary",
+            "ci/cd",
+            "metrics",
+            "rollback"
+          ]
+        },
+        {
+          "name": "SAML SSO integration",
+          "description": "Integrated SAML SSO with SCIM provisioning and audited access controls.",
+          "tags": [
+            "saml",
+            "sso",
+            "scim",
+            "identity",
+            "security"
+          ]
+        },
+        {
+          "name": "NCCL tuning for multi-GPU",
+          "description": "Improved all-reduce performance by tuning NCCL topology and env flags.",
+          "tags": [
+            "nccl",
+            "multi-gpu",
+            "training",
+            "performance",
+            "cuda"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-04",
+            "start": "15:00",
+            "end": "16:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E050",
+      "name": "Pavel Adams",
+      "email": "pavel.adams@demo-co.com",
+      "role": "Platform Engineer",
+      "team": "Mobile",
+      "seniority_level": 3,
+      "open_to_mentoring": false,
+      "location": {
+        "city": "Chicago",
+        "timezone": "America/Chicago",
+        "remote_ok": true
+      },
+      "skills": [
+        "postgresql",
+        "terraform",
+        "postgres wal",
+        "observability",
+        "kubernetes",
+        "developer tooling",
+        "service mesh",
+        "rag",
+        "helmfile",
+        "linux",
+        "docker"
+      ],
+      "projects": [
+        {
+          "name": "Mobile crash diagnostics",
+          "description": "Implemented Crashlytics dashboards and release health checks for mobile.",
+          "tags": [
+            "crashlytics",
+            "mobile",
+            "release",
+            "observability"
+          ]
+        },
+        {
+          "name": "Terraform state migration",
+          "description": "Refactored Terraform modules and migrated state without downtime.",
+          "tags": [
+            "terraform",
+            "infrastructure as code",
+            "state migration",
+            "modules"
+          ]
+        },
+        {
+          "name": "SBOM + supply chain hardening",
+          "description": "Rolled out SBOM generation and dependency policies for CI.",
+          "tags": [
+            "sbom",
+            "supply chain security",
+            "ci/cd",
+            "policy"
+          ]
+        }
+      ],
+      "availability": {
+        "simulated_busy_blocks": [
+          {
+            "day": "2026-02-06",
+            "start": "09:00",
+            "end": "10:00"
+          }
+        ]
+      }
+    }
+  ]
+}
