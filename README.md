@@ -1,77 +1,137 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
+# ☕ CoffeechAI
 
-## Project info
+**CoffeechAI** is an AI-powered internal knowledge and mentorship agent that helps employees get answers fast—or get connected to the right people—without friction.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Instead of dumping users into docs or Slack threads, CoffeechAI intelligently decides whether a question should be answered by existing knowledge or escalated to a mentor, then handles the entire flow end-to-end.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Elevator Pitch
 
-**Use Lovable**
+CoffeechAI connects employees to the right knowledge or the right people—instantly. It answers FAQs when possible and intelligently matches users with mentors when human guidance matters.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💡 Inspiration
 
-**Use your preferred IDE**
+As interns thrown into complex organizations, we experienced firsthand how hard it is to:
+- Understand internal systems and data structures  
+- Know *who* to ask for help  
+- Avoid Slack spam and awkward cold messages  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+CoffeechAI was built to remove that friction and make **people connection effortless** inside companies.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧠 What It Does
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+CoffeechAI acts as an **AI agent** that:
+1. Receives a user question via a simple UI
+2. Determines whether it’s an FAQ-style question or a mentorship request
+3. Answers directly if confident using internal FAQs
+4. Otherwise, finds and ranks the best mentors based on:
+   - Skills & projects
+   - Experience level
+   - Timezone & availability
+5. Generates **personalized reasons** for each recommended mentor
+6. Helps users choose a mentor and schedule time seamlessly
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠 How We Built It
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Core Architecture
+- **n8n** – Workflow orchestration, branching logic, and agent routing  
+- **Keywords AI** – Deterministic scoring + AI ranking for reliable decisions  
+- **Structured employee data** – Skills, projects, seniority, availability  
+- **Lovable** – Sleek, intuitive frontend experience  
+- **Webhook-based APIs** – Modular, extensible system design  
 
-**Edit a file directly in GitHub**
+### Agent Logic
+- **Deterministic first**: Keyword-based FAQ confidence scoring  
+- **AI escalation**: Mentor matching only when human help is needed  
+- **Strict JSON contracts** between all nodes to ensure reliability  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This hybrid approach ensures CoffeechAI behaves like a **trustworthy AI agent**, not a guessing chatbot.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎯 Challenges We Ran Into
 
-## What technologies are used for this project?
+- Learning **n8n** from scratch and understanding its execution model  
+- Managing HTTP requests, responses, and data flow between nodes  
+- Connecting and grounding **Keywords AI** correctly  
+- Preventing duplicate workflow executions and branching errors  
+- Designing prompts that always return **valid, structured JSON**  
 
-This project is built with:
+**Most hackathon-worthy challenge:**  
+Building a reliable AI agent pipeline where every step behaves predictably—even under edge cases.
 
+---
+
+## 🏆 Accomplishments We’re Proud Of
+
+- Built a fully working **end-to-end system**, not just a demo  
+- Achieved reliable FAQ confidence detection before mentor escalation  
+- Generated **unique, personalized reasons** for each mentor match  
+- Integrated real mentor availability to avoid dead-end recommendations  
+- Delivered a **sleek, intuitive UI** that feels human and approachable  
+- Designed a system that can scale across teams and organizations  
+
+---
+
+## 📚 What We Learned
+
+This project reinforced that **great AI agents are systems, not just models**.
+
+We learned that:
+- Hybrid systems (rules + AI) are far more reliable than AI alone  
+- Clear data contracts and strict JSON outputs are critical  
+- Workflow observability matters—small quirks can cascade quickly  
+- Prompts must be treated like code: designed, tested, iterated  
+- Strong engineering is just as important as strong AI  
+
+We also gained hands-on experience with:
+- n8n’s full orchestration capabilities  
+- Building polished UIs quickly with Lovable  
+- Using Keywords AI to ground AI decisions  
+- Writing tight, high-impact prompts  
+
+---
+
+## 🔮 What’s Next for CoffeechAI
+
+- Company-wide integrations (Slack, Teams, Email)  
+- Calendar scheduling and automated meeting invites  
+- Feedback loops to continuously improve mentor ranking  
+- Personalization based on past interactions  
+- Admin dashboards for knowledge gaps and mentorship demand  
+
+**Ultimate vision:**  
+Make CoffeechAI a plug-and-play **AI agent for internal knowledge and people connection** across companies.
+
+---
+
+## 🧩 Tech Stack
+
+**Frontend**
 - Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
+- shadcn-ui
+- Lovable
 
-## How can I deploy this project?
+**Backend / AI**
+- n8n
+- Keywords AI
+- OpenAI API
+- Webhooks & REST APIs
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🏁 Getting Started
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-=======
-# coffeechAI
->>>>>>> d0faded1d708dda760bfcc5ad21d3c75e20e0b17
+### Install
+```bash
+npm install
