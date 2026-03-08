@@ -14,7 +14,7 @@ CoffeechAI connects employees to the right knowledge or the right people instant
 
 ## 💡 Inspiration
 
-As interns thrown into complex organizations, we experienced firsthand how hard it is to:
+As interns thrown into complex organizations, we experienced firsthand how hard it is to - 
 - Understand internal systems and data structures  
 - Know *who* to ask for help  
 - Avoid Slack spam and awkward cold messages  
